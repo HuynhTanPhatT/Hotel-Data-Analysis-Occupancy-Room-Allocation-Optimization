@@ -8,11 +8,30 @@
 3. **`Data Processing by SQL & DAX`**
 4. **`Key Insights & Visualizations`**
 5. **`Recommendations`**
-# Introduction
-- A hotel in Vietnam faces business challenges over the past two years, especially about **Occupancy Rate**. By analyzing data, we can provide  **Hotel Mangement Team** with actionable strategies to improve the situation in 2025.
-# Dataset Overview
-- The dataset contains 6 tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates, and customer information such as (Phone, Email). Additionally, it includes **service-related details** (service price, payment type, usage) and **room-related details** (price per night, room type, room number).
-# Data processing
+# 📌Background & Overview
+Objective:
+📖What is this project about?
+- This project aims to build a **PowerBi dashboard** using the `Hotel Booking dataset`, which contains 6 tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates, and customer information such as (Phone, Email). Additionally, it includes **service-related details** (service price, payment type, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with actionable strategies to improve the situation:
+    - Understand the current business performance
+    - Identify factors affected to Occupancy Rate (%OR)
+    - Optimize room allocation on each time (Season, Month,...)
+🥷 Who is this project for ?
+- Hotel Management Team
+❓Business Questions:
+-
+🎯Project Outcome:
+-
+<img width="1102" height="594" alt="Screenshot 2025-08-22 125115" src="https://github.com/user-attachments/assets/abe31a28-7574-4e32-9d7a-30d0a08804c0" />
+
+# Dataset Description
+📌 Data Source:
+- Source: Data Group (https://www.facebook.com/groups/genzlamdata/posts/1329151735177185/)
+- Size: The  table contains 5,000 records.
+- Format: CSV
+<img width="1696" height="684" alt="Screenshot 2025-08-22 125018" src="https://github.com/user-attachments/assets/b98ab378-8a74-4315-af72-280719bddd93" />
+
+
+# Data Processing by SQL & DAX
 Using SQL to detect `Data Anomalies`
   - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
   - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
@@ -126,7 +145,10 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 </details>
 
-# Key Insights 
+# 📌Key Insights & Visualizations
+
+
+
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
 2. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
 3. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
@@ -140,8 +162,8 @@ Avg Daily Rate (ADR) = DIVIDE(
 - Room performance changes over time (e.g: R109 had a good performance in Autumn 2023, but Spring 2024 is better). Bechmark each room's performance over two years (2023 & 2024) to allocate rooms to the right periods.
 Root Cause: The low %OR low due to bookings and sold room.
 # Recommendations
-- Hotel Management:
-  1. 
+- 
+
 # Conclusion
 
 
