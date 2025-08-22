@@ -31,14 +31,15 @@ Objective:
 <img width="1696" height="684" alt="Screenshot 2025-08-22 125018" src="https://github.com/user-attachments/assets/b98ab378-8a74-4315-af72-280719bddd93" />
 
 
-# Data Processing by SQL & DAX
+# Data Processing by SQL & DAX 
+(https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
 Using SQL to detect `Data Anomalies`
   - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
   - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
   - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
-# DAX Calculations & Formulas
-Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
+DAX Calculations & Formulas
+- Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
