@@ -1,4 +1,7 @@
-# Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization (02/2023 - 02/2025)
+# 🏨Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization (02/2023 - 02/2025)
+Author: Huỳnh Tấn Phát
+Date: /2025
+Tool Used: `SQL`, `PowerBi`
 # Introduction
 - A hotel in Vietnam faces business challenges over the past two years, especially about **Occupancy Rate**. By analyzing data, we can provide  **Hotel Mangement Team** with actionable strategies to improve the situation in 2025.
 # Dataset Overview
