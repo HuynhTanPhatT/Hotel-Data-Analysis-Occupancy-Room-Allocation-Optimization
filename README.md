@@ -15,8 +15,10 @@ Objective:
     - Understand the current business performance
     - Identify factors affected to Occupancy Rate (%OR)
     - Optimize room allocation on each time (Season, Month,...)
+  
 🥷 Who is this project for ?
 - Hotel Management Team
+
 ❓Business Questions:
 -
 🎯Project Outcome:
@@ -152,11 +154,14 @@ I. Overview
 📌 Key & Findings:
 - The total number of booking reached **3.700** (from 02/2023 -> 02/2025): **`Confirmed Bookings`**: (2.839 - 76.73%),  **`Pending Bookings`**: (417 - 11.27%), **`Cancelled Bookings`**: (444 - 12%)
 1. Customer's Booking Befavior lean toward to half a year: Among them,  `Jun,Jul,Sep,Oct,Dec` exceed the average booking line (148) in two years -> Growth trend showed that it increased more in High Season (Summer and Winter).
-2. Với tổng doanh thu là 8.23M trong
+2. Với tổng doanh thu là 8.23M trong Các tháng 6,7,9,12 có lượng doanh thu ổn định và vượt mức trung bình trong 2 năm.. Tuy nhiên việc 
 3. Cancellation count grew from 206(2023) -> 217 (2024) and 21 (2025) 444: lượt hủy đã làm cho khách sạn mất 901K. Trong đó, Tháng 5,7,9,11, 12 vượt mức trung bình trong cả 2 năm liền với 2 chỉ số (Cancellation và Revenue Loss). Tuy rằng, giai đoạn nửa năm sau có doanh thu và lượt đặt phòng ổn định, nhưng mà sự thất thoát cho thấy đây cũng là các tháng cần lưu ý  và cần  có chính sách để tránh tình trạng mất doanh thu tiềm năng.
 4. 
 5. Revenue got lost potential Revenue from Cancelled Bookings
 - However, Revenue
+6. Ngoài ADR (Average Daily Rate) dao động ổn định từ 247 → 300 trong 2 năm qua, tuy nhiên Khách Sạn không có sự điều chỉnh giá theo mùa cao điểm hay thấp điểm.Tỷ lệ lấp đầy phòng trung bình (OR) ~14%, rất thấp so với tiêu chuẩn thị trường (60-70%).
+Về phần Room Type và Service: Presidential có lượng đặt phòng cao nhất (843) lượt,  đây cũng là phòng mang lại doanh thu cao nhất.  Ngoài ra,  dịch vụ được sử dụng nhiều nhất là Room Service (~1.800 lượt sử dụng — $27), doanh thu thấp đứng thứ 2 sau Gym. Tuy SPA có ít lượt sử dụng hơn (1.674 — $130), nhưng mang lại doanh thu cao nhất
+=> Tổng kết điều này: cho thấy với %OR chi đạt mức ... đã nguyên nhân ảnh hưởng đến toàn bộ chỉ số còn lại của khách sạn. Mặc dù có tới tận 200 phòng Tiếp theo ta sẽ phân tích các tác nhân nào dẫn đến chỉ số %OR thấp.
 
 
 
@@ -176,7 +181,7 @@ II. Occupancy Rate (%OR) Analysis
 Root Cause: The low %OR low due to bookings and sold room.
 
 III> Room Management || Check Room Allocation in months across 2023 & 2024
-<img width="1110" height="621" alt="image" src="https://github.com/user-attachments/assets/145e32c5-822a-4502-9f51-75ebddf93cf8" />
+<img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/e4a0ed1c-8457-452f-b2e3-7901d2924002" />
 
 
 # Recommendations
