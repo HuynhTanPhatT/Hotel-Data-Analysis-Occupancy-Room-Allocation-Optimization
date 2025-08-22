@@ -150,8 +150,13 @@ Avg Daily Rate (ADR) = DIVIDE(
 I. Overview
 <img width="1117" height="627" alt="image" src="https://github.com/user-attachments/assets/c9e1037a-b169-408c-a429-4475260201af" />
 📌 Key & Findings:
-1. Customers' Booking Behavior lean toward to half a year
-- The total number of bookings reached **3.700** (from 02/2023 -> 02/2025), among them Jun,Jul, Sep,Oct,Dec exceed the average booking line (148) in two years. -> Growth booking trend in two years increased more in High Season (Summer and Winter).
+- The total number of booking reached **3.700** (from 02/2023 -> 02/2025): **`Confirmed Bookings`**: (2.839 - 76.73%),  **`Pending Bookings`**: (417 - 11.27%), **`Cancelled Bookings`**: (444 - 12%)
+1. Customer's Booking Befavior lean toward to half a year: Among them,  `Jun,Jul,Sep,Oct,Dec` exceed the average booking line (148) in two years -> Growth trend showed that it increased more in High Season (Summer and Winter).
+2. Với tổng doanh thu là 8.23M trong
+3. Cancellation count grew from 206(2023) -> 217 (2024) and 21 (2025) 444: lượt hủy đã làm cho khách sạn mất 901K. Trong đó, Tháng 5,7,9,11, 12 vượt mức trung bình trong cả 2 năm liền với 2 chỉ số (Cancellation và Revenue Loss). Tuy rằng, giai đoạn nửa năm sau có doanh thu và lượt đặt phòng ổn định, nhưng mà sự thất thoát cho thấy đây cũng là các tháng cần lưu ý  và cần  có chính sách để tránh tình trạng mất doanh thu tiềm năng.
+4. 
+5. Revenue got lost potential Revenue from Cancelled Bookings
+- However, Revenue
 
 
 
