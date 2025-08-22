@@ -25,9 +25,9 @@ Objective:
 
 # Dataset Description
 📌 Data Source:
-- Source: Data Group (https://www.facebook.com/groups/genzlamdata/posts/1329151735177185/)
+- Source: Data Group (https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
 - Size: The  table contains 5,000 records.
-- Format: CSV
+- Format: CSV (https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
 <img width="1696" height="684" alt="Screenshot 2025-08-22 125018" src="https://github.com/user-attachments/assets/b98ab378-8a74-4315-af72-280719bddd93" />
 
 
