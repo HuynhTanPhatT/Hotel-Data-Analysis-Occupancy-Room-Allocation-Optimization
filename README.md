@@ -146,10 +146,17 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 </details>
 
-# 📌Key Insights & Visualizations
+# 📊Key Insights & Visualizations
+I. Overview
+<img width="1117" height="627" alt="image" src="https://github.com/user-attachments/assets/c9e1037a-b169-408c-a429-4475260201af" />
+📌 Key & Findings:
+1. Customers' Booking Behavior lean toward to half a year
+- The total number of bookings reached **3.700** (from 02/2023 -> 02/2025), among them Jun,Jul, Sep,Oct,Dec exceed the average booking line (148) in two years. -> Growth booking trend in two years increased more in High Season (Summer and Winter).
 
 
 
+II. Occupancy Rate (%OR) Analysis
+<img width="1108" height="617" alt="image" src="https://github.com/user-attachments/assets/b6d37384-d7ac-493a-a3c8-2db2b427fc66" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
 2. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
 3. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
@@ -162,6 +169,11 @@ Avg Daily Rate (ADR) = DIVIDE(
 - Some rooms have %OR below 5% or remain unsold for an entire year -> `Short Stay Bookings`.
 - Room performance changes over time (e.g: R109 had a good performance in Autumn 2023, but Spring 2024 is better). Bechmark each room's performance over two years (2023 & 2024) to allocate rooms to the right periods.
 Root Cause: The low %OR low due to bookings and sold room.
+
+III> Room Management || Check Room Allocation in months across 2023 & 2024
+<img width="1110" height="621" alt="image" src="https://github.com/user-attachments/assets/145e32c5-822a-4502-9f51-75ebddf93cf8" />
+
+
 # Recommendations
 - 
 
