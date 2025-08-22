@@ -168,9 +168,11 @@ Về phần Room Type và Service: Presidential có lượng đặt phòng cao n
 II. Occupancy Rate (%OR) Analysis
 <img width="1108" height="617" alt="image" src="https://github.com/user-attachments/assets/b6d37384-d7ac-493a-a3c8-2db2b427fc66" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
-2. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
-3. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
-4. **Occupancy Rate**:
+<img width="1101" height="256" alt="image" src="https://github.com/user-attachments/assets/af950ac3-2b5e-4396-be89-9d7392202714" />
+
+3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
+4. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
+5. **Occupancy Rate**:
 - Many rooms remain unsold over 1 - 2 year or are sold at wrong time -> **wasting available room number**
 - High or Low ADR is not a problem if there is a right peak-season strategy -> more room would be sold and %OR would be high.
 => If the %OR remains at ~14% in 2025, revenue will lost 3M compared to  %OR (50%)
