@@ -160,7 +160,7 @@ I. Overview
 
 2. Gross Revenue & Cancellations:
 - Gross Revenue increased steadily over the years and reached 8.23M, with stable months (Jun, July,Sep,Dec). However, 444 cancellations caused (~901K) in revenue loss.
-- Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe (~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard (~$900K)
+- Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe(~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard(~$900K)
 <img width="1102" height="257" alt="Screenshot 2025-08-23 063353" src="https://github.com/user-attachments/assets/a392691d-2877-40c4-b871-d4835fec3ebf" />
 <img width="1094" height="258" alt="Screenshot 2025-08-23 064519" src="https://github.com/user-attachments/assets/87ce8247-c07a-4ece-8a1f-e8770911eac7" />
 <img width="1092" height="253" alt="Screenshot 2025-08-23 064541" src="https://github.com/user-attachments/assets/b262f54b-9e70-4b9c-9299-251c63be1563" />
@@ -173,7 +173,7 @@ I. Overview
 <img width="1095" height="253" alt="Screenshot 2025-08-23 073540" src="https://github.com/user-attachments/assets/e9223ac9-51f3-4164-8958-1dc8e6402032" />
 
 II. Occupancy Rate (%OR) Analysis
-<img width="1108" height="617" alt="image" src="https://github.com/user-attachments/assets/b6d37384-d7ac-493a-a3c8-2db2b427fc66" />
+<img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
 3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
 4. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
