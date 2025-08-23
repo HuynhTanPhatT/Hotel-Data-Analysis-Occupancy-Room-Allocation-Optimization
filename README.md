@@ -160,15 +160,15 @@ Avg Daily Rate (ADR) = DIVIDE(
     - Cancelled Bookings: 444 bookings (12%)
     - Pending Bookings: 417 bookings (11.27%)
 1. Booking Behavior:
-- Customers' booking trends leaned toward the mid-to-late months of the year which exceeding the average (Jun,Jul, Sep,Oct,Dec) -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
+    - Customers' booking trends leaned toward the mid-to-late months of the year which exceeding the average (Jun,Jul, Sep,Oct,Dec) -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
 
 2. Gross Revenue & Cancellations:
-- Gross Revenue increased steadily over the years and reached 8.23M, with stable months (Jun, July,Sep,Dec). However, 444 cancellations caused (~901K) in revenue loss.
-- Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe(~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard(~$900K)
+    - Gross Revenue increased steadily over the years and reached 8.23M, with stable months (Jun, July,Sep,Dec). However, 444 cancellations caused (~901K) in revenue loss.
+    - Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe(~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard(~$900K)
 
 3. ADR & Occupancy Rate:
-- ADR remained flat ($247-$300), indicating that the management did not adjust the pricing for room numbers to stimute sales.
-- Occupancy Rate (OR): ~14%, below the industry benchmark (60-70%), even with 200 available rooms.
+    - ADR remained flat ($247-$300), indicating that the management did not adjust the pricing for room numbers to stimute sales.
+    - Occupancy Rate (OR): ~14%, below the industry benchmark (60-70%), even with 200 available rooms.
 => **`Low OR is the root cause affecting other metrics: bookings, revenue,etc)`**.
 
 
