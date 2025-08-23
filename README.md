@@ -168,12 +168,13 @@ Avg Daily Rate (ADR) = DIVIDE(
 3. ADR & Occupancy Rate:
 - ADR ranged from $247 -> $300 showing that hotel did not have a flexible pricing strategy over time, which lead to the uncontrol the price per night for each room compared to the market. As a result, the %OR remained low.
 - The occupancy Rate (%OR) was ~14%, which is very low compared to the standard (60-70%), although the hotel has 200 room numbers.
-=> This is the root cause affecting other metrics (Booking, Revenue, Room Usage, etc).
+=> **`This is the root cause affecting other metrics (Booking, Revenue, Room Usage, etc)`**.
 <img width="1094" height="254" alt="Screenshot 2025-08-23 073302" src="https://github.com/user-attachments/assets/e07a3461-10e5-4d55-8577-83164b69cc13" />
 <img width="1095" height="253" alt="Screenshot 2025-08-23 073540" src="https://github.com/user-attachments/assets/e9223ac9-51f3-4164-8958-1dc8e6402032" />
 
 ## II. Occupancy Rate (%OR) Analysis
 <img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
+
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
 3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
 4. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
