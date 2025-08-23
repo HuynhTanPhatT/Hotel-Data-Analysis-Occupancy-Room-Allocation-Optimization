@@ -9,7 +9,7 @@
 4. **`Key Insights & Visualizations`**
 5. **`Recommendations`**
 # 📌Background & Overview
-Objective:
+## Objective:
 📖What is this project about?
 - This project aims to build a **PowerBi dashboard** using the `Hotel Booking dataset`, which contains 6 tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates, and customer information such as (Phone, Email). Additionally, it includes **service-related details** (service price, payment type, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with actionable strategies to improve the situation:
     - Understand the current business performance
