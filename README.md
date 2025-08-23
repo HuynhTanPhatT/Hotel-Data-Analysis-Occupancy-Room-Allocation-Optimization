@@ -28,7 +28,7 @@
 - Source: Data Group (https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
 - Size: The  table contains 5,000 records.
 - Format: CSV (https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
-<img width="1145" height="677" alt="image" src="https://github.com/user-attachments/assets/f0142091-aac0-40a0-b3cb-e8d101141fae" />
+<img width="1618" height="656" alt="image" src="https://github.com/user-attachments/assets/9a0daffb-71cc-467a-b132-a998813ece12" />
 
 
 # Data Processing by SQL & DAX 
