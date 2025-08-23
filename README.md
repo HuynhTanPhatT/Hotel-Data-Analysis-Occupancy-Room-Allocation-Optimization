@@ -11,14 +11,17 @@
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
-- This project aims to build a **PowerBi dashboard** using the `Hotel Booking dataset`, which contains 6 tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates, and customer information such as (Phone, Email). Additionally, it includes **service-related details** (service price, payment type, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with actionable strategies to improve the situation:
+- This project aims to build  **PowerBi dashboards** using the `Hotel Booking dataset`, which contains tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates. Additionally, it includes **service-related details** (service price, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with actionable strategies to improve the situation:
     - Understand the current business performance
     - Identify factors affected to Occupancy Rate (%OR)
     - Optimize room allocation on each time (Season, Month,...)
+
 🥷 Who is this project for ?
 - Hotel Management Team
+  
 ❓Business Questions:
-- x
+- What is the current business performance of this hotel ?
+
 🎯Project Outcome:
 - x
 <img width="1102" height="594" alt="Screenshot 2025-08-22 125115" src="https://github.com/user-attachments/assets/abe31a28-7574-4e32-9d7a-30d0a08804c0" />
