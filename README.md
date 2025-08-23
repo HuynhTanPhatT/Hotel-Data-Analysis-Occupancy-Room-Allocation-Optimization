@@ -15,7 +15,6 @@
     - Understand the current business performance
     - Identify factors affected to Occupancy Rate (%OR)
     - Optimize room allocation on each time (Season, Month,...)
-  
 🥷 Who is this project for ?
 - Hotel Management Team
 ❓Business Questions:
@@ -147,7 +146,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 </details>
 
 # 📊Key Insights & Visualizations
-I. Overview
+## I. Overview
 <img width="1296" height="728" alt="image" src="https://github.com/user-attachments/assets/163cdddb-85a6-433e-9c1e-248876db7db3" />
 - The fluctuation of metrocs over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, based on months that exceeded the two-year average.
 - Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
@@ -172,7 +171,7 @@ I. Overview
 <img width="1094" height="254" alt="Screenshot 2025-08-23 073302" src="https://github.com/user-attachments/assets/e07a3461-10e5-4d55-8577-83164b69cc13" />
 <img width="1095" height="253" alt="Screenshot 2025-08-23 073540" src="https://github.com/user-attachments/assets/e9223ac9-51f3-4164-8958-1dc8e6402032" />
 
-II. Occupancy Rate (%OR) Analysis
+## II. Occupancy Rate (%OR) Analysis
 <img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
 3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
@@ -187,7 +186,7 @@ II. Occupancy Rate (%OR) Analysis
 - Room performance changes over time (e.g: R109 had a good performance in Autumn 2023, but Spring 2024 is better). Bechmark each room's performance over two years (2023 & 2024) to allocate rooms to the right periods.
 Root Cause: The low %OR low due to bookings and sold room.
 
-III> Room Management || Check Room Allocation in months across 2023 & 2024
+## III> Room Management || Check Room Allocation in months across 2023 & 2024
 <img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/e4a0ed1c-8457-452f-b2e3-7901d2924002" />
 
 
