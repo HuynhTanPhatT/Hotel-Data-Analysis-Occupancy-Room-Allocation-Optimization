@@ -150,25 +150,30 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 # 📊Key Insights & Visualizations
 I. Overview
-<img width="1117" height="627" alt="image" src="https://github.com/user-attachments/assets/c9e1037a-b169-408c-a429-4475260201af" />
-📌 Key & Findings:
-- The total number of booking reached **3.700** (from 02/2023 -> 02/2025): **`Confirmed Bookings`**: (2.839 - 76.73%),  **`Pending Bookings`**: (417 - 11.27%), **`Cancelled Bookings`**: (444 - 12%)
-1. Customer's Booking Befavior lean toward to half a year: Among them,  `Jun,Jul,Sep,Oct,Dec` exceed the average booking line (148) in two years -> Growth trend showed that it increased more in High Season (Summer and Winter).
-2. Với tổng doanh thu là 8.23M trong Các tháng 6,7,9,12 có lượng doanh thu ổn định và vượt mức trung bình trong 2 năm.. Tuy nhiên việc 
-3. Cancellation count grew from 206(2023) -> 217 (2024) and 21 (2025) 444: lượt hủy đã làm cho khách sạn mất 901K. Trong đó, Tháng 5,7,9,11, 12 vượt mức trung bình trong cả 2 năm liền với 2 chỉ số (Cancellation và Revenue Loss). Tuy rằng, giai đoạn nửa năm sau có doanh thu và lượt đặt phòng ổn định, nhưng mà sự thất thoát cho thấy đây cũng là các tháng cần lưu ý  và cần  có chính sách để tránh tình trạng mất doanh thu tiềm năng.
-4. 
-5. Revenue got lost potential Revenue from Cancelled Bookings
-- However, Revenue
-6. Ngoài ADR (Average Daily Rate) dao động ổn định từ 247 → 300 trong 2 năm qua, tuy nhiên Khách Sạn không có sự điều chỉnh giá theo mùa cao điểm hay thấp điểm.Tỷ lệ lấp đầy phòng trung bình (OR) ~14%, rất thấp so với tiêu chuẩn thị trường (60-70%).
-Về phần Room Type và Service: Presidential có lượng đặt phòng cao nhất (843) lượt,  đây cũng là phòng mang lại doanh thu cao nhất.  Ngoài ra,  dịch vụ được sử dụng nhiều nhất là Room Service (~1.800 lượt sử dụng — $27), doanh thu thấp đứng thứ 2 sau Gym. Tuy SPA có ít lượt sử dụng hơn (1.674 — $130), nhưng mang lại doanh thu cao nhất
-=> Tổng kết điều này: cho thấy với %OR chi đạt mức ... đã nguyên nhân ảnh hưởng đến toàn bộ chỉ số còn lại của khách sạn. Mặc dù có tới tận 200 phòng Tiếp theo ta sẽ phân tích các tác nhân nào dẫn đến chỉ số %OR thấp.
-
-
-
+<img width="1296" height="728" alt="image" src="https://github.com/user-attachments/assets/163cdddb-85a6-433e-9c1e-248876db7db3" />
+- The fluctuation of metrocs over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, based on months that exceeded the two-year average.
+- Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
+    - Confirmed Bookings: 2.839 bookings (76.37%)
+    - Cancelled Bookings: 444 bookings (12%)
+    - Pending Bookings: 417 bookings (11.27%)
+1. Booking Behavior:
+- Customers' booking trends leaned toward the mid to end of the year by months exceeding the average (Jun,Jul, Sep,Oct,Dec). -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
+<img width="1101" height="256" alt="Screenshot 2025-08-23 062414" src="https://github.com/user-attachments/assets/a9925375-4a33-401e-a44d-ba27a7fe181f" />
+2. Gross Revenue & Cancellations:
+- Gross Revenue increased steadily over the years and reached 8.23M, with stable months (Jun, July,Sep,Dec). However, 444 cancellations caused (~901K) in revenue loss.
+- Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe (~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard (~$900K)
+<img width="1102" height="257" alt="Screenshot 2025-08-23 063353" src="https://github.com/user-attachments/assets/a392691d-2877-40c4-b871-d4835fec3ebf" />
+<img width="1094" height="258" alt="Screenshot 2025-08-23 064519" src="https://github.com/user-attachments/assets/87ce8247-c07a-4ece-8a1f-e8770911eac7" />
+<img width="1092" height="253" alt="Screenshot 2025-08-23 064541" src="https://github.com/user-attachments/assets/b262f54b-9e70-4b9c-9299-251c63be1563" />
+3. ADR & Occupancy Rate:
+- ADR ranged from $247 -> $300 showing that hotel did not have a flexible pricing strategy over time, which lead to the uncontrol the price per night for each room compared to the market. As a result, the %OR remained low.
+- The occupancy Rate (%OR) was ~14%, which is very low compared to the standard (60-70%), although the hotel has 200 room numbers.
+=> This is the root cause affecting other metrics (Booking, Revenue, Room Usage, etc).
+<img width="1094" height="254" alt="Screenshot 2025-08-23 073302" src="https://github.com/user-attachments/assets/e07a3461-10e5-4d55-8577-83164b69cc13" />
+<img width="1095" height="253" alt="Screenshot 2025-08-23 073540" src="https://github.com/user-attachments/assets/e9223ac9-51f3-4164-8958-1dc8e6402032" />
 II. Occupancy Rate (%OR) Analysis
 <img width="1108" height="617" alt="image" src="https://github.com/user-attachments/assets/b6d37384-d7ac-493a-a3c8-2db2b427fc66" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
-<img width="1101" height="256" alt="image" src="https://github.com/user-attachments/assets/af950ac3-2b5e-4396-be89-9d7392202714" />
 
 3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
 4. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
