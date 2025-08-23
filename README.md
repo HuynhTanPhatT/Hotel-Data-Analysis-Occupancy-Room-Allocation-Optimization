@@ -21,6 +21,8 @@
   
 ❓Business Questions:
 - What is the current business performance of this hotel ?
+- Why is the next action for solving `low occupancy rate` ?
+- Data Anomaly ??
 
 🎯Project Outcome:
 - x
