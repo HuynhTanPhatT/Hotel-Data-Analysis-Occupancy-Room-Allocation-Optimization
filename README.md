@@ -18,11 +18,10 @@
   
 🥷 Who is this project for ?
 - Hotel Management Team
-
 ❓Business Questions:
--
+- x
 🎯Project Outcome:
--
+- x
 <img width="1102" height="594" alt="Screenshot 2025-08-22 125115" src="https://github.com/user-attachments/assets/abe31a28-7574-4e32-9d7a-30d0a08804c0" />
 
 # Dataset Description
@@ -30,12 +29,11 @@
 - Source: Data Group (https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
 - Size: The  table contains 5,000 records.
 - Format: CSV (https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
-<img width="1696" height="684" alt="Screenshot 2025-08-22 125018" src="https://github.com/user-attachments/assets/b98ab378-8a74-4315-af72-280719bddd93" />
+<img width="1145" height="677" alt="image" src="https://github.com/user-attachments/assets/f0142091-aac0-40a0-b3cb-e8d101141fae" />
 
 
 # Data Processing by SQL & DAX 
-(https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
-Using SQL to detect `Data Anomalies`
+Using SQL to detect `Data Anomalies` (https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
   - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
   - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
   - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
@@ -174,7 +172,6 @@ I. Overview
 II. Occupancy Rate (%OR) Analysis
 <img width="1108" height="617" alt="image" src="https://github.com/user-attachments/assets/b6d37384-d7ac-493a-a3c8-2db2b427fc66" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
-
 3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
 4. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
 5. **Occupancy Rate**:
