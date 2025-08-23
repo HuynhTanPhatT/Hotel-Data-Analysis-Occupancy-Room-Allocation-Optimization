@@ -2,7 +2,7 @@
 - Author: Huỳnh Tấn Phát
 - Date: /2025
 - Tool Used: `SQL`, `PowerBi`
-# Table Of Contents (TOCs)
+# 🧾Table Of Contents (TOCs)
 1. **`Background & Overview`**
 2. **`Dataset Description`**
 3. **`Data Processing by SQL & DAX`**
@@ -11,18 +11,19 @@
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
-- This project aims to build  **PowerBi dashboards** using the `Hotel Booking dataset`, which contains tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates. Additionally, it includes **service-related details** (service price, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with actionable strategies to improve the situation:
+- This project aims to build  **PowerBi dashboards** using the `Hotel Booking dataset`, which contains tables providing insights into booking-related variables (Cofirmed, Pending, Cancelled Bookings), check-in and check-out dates. Additionally, it includes **service-related details** (service price, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with data-driven insights to:
     - Understand the current business performance
-    - Identify factors affected to Occupancy Rate (%OR)
-    - Optimize room allocation on each time (Season, Month,...)
+    - Make a plan for pricing strategy 
+    - Optimize room allocation
 
 🥷 Who is this project for ?
 - Hotel Management Team
   
 ❓Business Questions:
 - What is the current business performance of this hotel ?
-- Why is the next action for solving `low occupancy rate` ?
-- Data Anomaly ??
+- Which factors caused Occupancy Rate low ?
+- Which is the right-selling time of each Room Number ?
+- Double Booking
 
 🎯Project Outcome:
 - x
