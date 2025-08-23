@@ -155,20 +155,23 @@ I. Overview
     - Cancelled Bookings: 444 bookings (12%)
     - Pending Bookings: 417 bookings (11.27%)
 1. Booking Behavior:
-- Customers' booking trends leaned toward the mid to end of the year by months exceeding the average (Jun,Jul, Sep,Oct,Dec). -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
+- Customers' booking trends leaned toward the mid to end of the year by months exceeding the average (Jun,Jul, Sep,Oct,Dec) -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
 <img width="1101" height="256" alt="Screenshot 2025-08-23 062414" src="https://github.com/user-attachments/assets/a9925375-4a33-401e-a44d-ba27a7fe181f" />
+
 2. Gross Revenue & Cancellations:
 - Gross Revenue increased steadily over the years and reached 8.23M, with stable months (Jun, July,Sep,Dec). However, 444 cancellations caused (~901K) in revenue loss.
 - Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe (~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard (~$900K)
 <img width="1102" height="257" alt="Screenshot 2025-08-23 063353" src="https://github.com/user-attachments/assets/a392691d-2877-40c4-b871-d4835fec3ebf" />
 <img width="1094" height="258" alt="Screenshot 2025-08-23 064519" src="https://github.com/user-attachments/assets/87ce8247-c07a-4ece-8a1f-e8770911eac7" />
 <img width="1092" height="253" alt="Screenshot 2025-08-23 064541" src="https://github.com/user-attachments/assets/b262f54b-9e70-4b9c-9299-251c63be1563" />
+
 3. ADR & Occupancy Rate:
 - ADR ranged from $247 -> $300 showing that hotel did not have a flexible pricing strategy over time, which lead to the uncontrol the price per night for each room compared to the market. As a result, the %OR remained low.
 - The occupancy Rate (%OR) was ~14%, which is very low compared to the standard (60-70%), although the hotel has 200 room numbers.
 => This is the root cause affecting other metrics (Booking, Revenue, Room Usage, etc).
 <img width="1094" height="254" alt="Screenshot 2025-08-23 073302" src="https://github.com/user-attachments/assets/e07a3461-10e5-4d55-8577-83164b69cc13" />
 <img width="1095" height="253" alt="Screenshot 2025-08-23 073540" src="https://github.com/user-attachments/assets/e9223ac9-51f3-4164-8958-1dc8e6402032" />
+
 II. Occupancy Rate (%OR) Analysis
 <img width="1108" height="617" alt="image" src="https://github.com/user-attachments/assets/b6d37384-d7ac-493a-a3c8-2db2b427fc66" />
 1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
