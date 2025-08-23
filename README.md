@@ -153,6 +153,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 # 📊Key Insights & Visualizations
 ## I. Overview
 <img width="1296" height="728" alt="image" src="https://github.com/user-attachments/assets/163cdddb-85a6-433e-9c1e-248876db7db3" />
+
 - The fluctuation of metrocs over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, by comparing months that exceeded the two-year average.
 - Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
     - Confirmed Bookings: 2.839 bookings (76.37%)
