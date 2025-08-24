@@ -175,6 +175,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 ## II. Occupancy Rate (%OR) Analysis
 <img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
+
 - The reasons for "Why the Occupancy Rate low" come from 3 factors: Cancelled Room Nights, Sold Rooms, and ADR.
     1. Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
     2. Low Sold Rooms: 2023 (8.674 room nights) && 2024 (9.953 room nights)
