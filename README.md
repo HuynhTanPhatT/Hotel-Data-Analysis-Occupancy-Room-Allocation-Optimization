@@ -175,19 +175,16 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 ## II. Occupancy Rate (%OR) Analysis
 <img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
-
-1. **Booking Trends**: Customer tends to make a reservation in the latter half of the year (especially on Summer | Winter). However, these peak months often have higher cancellation rates than other months.
-3. **Cancellations**: On average, there are 18 cancellations per month (around 1-> 4 per day, some spiking to 10). Cancellations accounts for 12% of total bookings, resulting to ~900K in lost potential revenue - but this is not the main reason for the low occupancy rate (%OR).
-4. **Gross Revenue**: June, July, September and December show stable revenue over two years. May records the lowest booking and revenue, because customer wants to wait for the peak seasons.
-5. **Occupancy Rate**:
-- Many rooms remain unsold over 1 - 2 year or are sold at wrong time -> **wasting available room number**
-- High or Low ADR is not a problem if there is a right peak-season strategy -> more room would be sold and %OR would be high.
-=> If the %OR remains at ~14% in 2025, revenue will lost 3M compared to  %OR (50%)
-5. **Room Performance**:
-- `Certain room numbers`  have %OR in a month up to 80%, but only 1 - 2 Bookings -> `Long Stay Guests Segment`.
-- Some rooms have %OR below 5% or remain unsold for an entire year -> `Short Stay Bookings`.
-- Room performance changes over time (e.g: R109 had a good performance in Autumn 2023, but Spring 2024 is better). Bechmark each room's performance over two years (2023 & 2024) to allocate rooms to the right periods.
-Root Cause: The low %OR low due to bookings and sold room.
+- The reasons for "Why the Occupancy Rate low" come from 3 factors: Cancelled Room Nights, Sold Rooms, and ADR.
+    1. Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
+    2. Low Sold Rooms: 2023 (8.674 room nights) && 2024 (9.953 room nights)
+- Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
+- There is a gap between capacity and actual room ulitization by the hotel.
+    3. ADR: The price ranges from $51 -> $500, but the performance of each room is bad across all the price segments -> Despite high/low ADR, it cant improve the %OR.
+- Why did it happend ?
+    - No demand stimulation actions from the hotel management: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
+    - Inefficient rooms: Room numbers consistently underperformed.
+    - Inflexible pricing strategy: AD remain rigid overtime.
 
 ## III> Room Management || Check Room Allocation in months across 2023 & 2024
 <img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/e4a0ed1c-8457-452f-b2e3-7901d2924002" />
