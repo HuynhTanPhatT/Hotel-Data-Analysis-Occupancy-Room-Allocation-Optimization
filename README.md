@@ -15,6 +15,7 @@
         - Understand the current business performance.
         - Evaluate the room allocation efficiency.
         - Identify the root cause of low %OR
+
 🥷 Who is this project for ?
 - Hotel Management Team
   
