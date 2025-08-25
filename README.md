@@ -153,7 +153,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 # 📊Key Insights & Visualizations
 ## I. Overview
-<img width="1298" height="729" alt="image" src="https://github.com/user-attachments/assets/0937875f-f451-42fb-899b-bbf678f5330f" />
+<img width="1301" height="730" alt="image" src="https://github.com/user-attachments/assets/ef46418e-6ad0-4bf8-aeb1-45a10b73d9d7" />
 
 - The fluctuation of metrics over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, by comparing months that exceeded the two-year average.
 - Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
@@ -177,10 +177,11 @@ Avg Daily Rate (ADR) = DIVIDE(
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/f6999b90-5f54-4f8d-bbde-7464fc73dd13" />
 
 - The reasons for "Why the Occupancy Rate low" come from 3 factors: Cancelled Room Nights, Sold Rooms, and ADR.
-      - Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
-      - Low Sold Rooms: 2023 (8.674 room nights) && 2024 (9.953 room nights)
+    - Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
+    - Low Sold Rooms: 2023 (8.674 room nights) && 2024 (9.953 room nights)
           - Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
           - There is a gap between capacity and actual room ulitization by the hotel.
+      
 - ADR: The price ranges from $51 -> $500, but the performance of each room is bad across all the price segments -> Despite high/low ADR, it cant improve the %OR.
 - Why did it happend ?
     - No demand stimulation actions from the hotel management: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
