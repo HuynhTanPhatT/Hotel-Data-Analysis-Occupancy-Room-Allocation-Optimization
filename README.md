@@ -153,7 +153,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 # 📊Key Insights & Visualizations
 ## I. Overview
-<img width="1296" height="730" alt="image" src="https://github.com/user-attachments/assets/810ec39c-9f89-4622-b4f0-f4b93dbb176d" />
+<img width="1298" height="729" alt="image" src="https://github.com/user-attachments/assets/0937875f-f451-42fb-899b-bbf678f5330f" />
 
 - The fluctuation of metrics over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, by comparing months that exceeded the two-year average.
 - Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
@@ -174,7 +174,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 
 ## II. Occupancy Rate (%OR) Analysis
-<img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
+<img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/f6999b90-5f54-4f8d-bbde-7464fc73dd13" />
 
 - The reasons for "Why the Occupancy Rate low" come from 3 factors: Cancelled Room Nights, Sold Rooms, and ADR.
       - Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
