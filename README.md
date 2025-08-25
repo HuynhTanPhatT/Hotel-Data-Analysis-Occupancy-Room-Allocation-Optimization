@@ -177,11 +177,10 @@ Avg Daily Rate (ADR) = DIVIDE(
 <img width="1297" height="727" alt="image" src="https://github.com/user-attachments/assets/f82957b4-57d5-44a7-be7f-cb403b81c618" />
 
 - The reasons for "Why the Occupancy Rate low" come from 3 factors: Cancelled Room Nights, Sold Rooms, and ADR.
-
       - Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
       - Low Sold Rooms: 2023 (8.674 room nights) && 2024 (9.953 room nights)
-        - Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
-        - There is a gap between capacity and actual room ulitization by the hotel.
+          - Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
+          - There is a gap between capacity and actual room ulitization by the hotel.
 - ADR: The price ranges from $51 -> $500, but the performance of each room is bad across all the price segments -> Despite high/low ADR, it cant improve the %OR.
 - Why did it happend ?
     - No demand stimulation actions from the hotel management: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
