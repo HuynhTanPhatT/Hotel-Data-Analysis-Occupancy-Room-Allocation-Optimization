@@ -12,9 +12,9 @@
 ## Objective:
 📖What is this project about?
 - This project aims to build **PowerBi Dashboards** from the `Hotel Booking dataset`m which includes **booking-related data** (Confirmed Bookings, Pending, Cancelled Bookings), check-in & check-out dates. Additionally, it also has **service-related data** (service price, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with data-driven insights to:
-        - Understand the current business performance.
-        - Evaluate the room allocation efficiency.
-        - Identify the root cause of low %OR
+  - Understand the current business performance.
+  - Evaluate the room allocation efficiency.
+  - Identify the root cause of low %OR
 
 🥷 Who is this project for ?
 - Hotel Management Team
