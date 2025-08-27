@@ -1,6 +1,6 @@
 # 🏨Hotel Data Analysis: Occupancy & Room Allocation Optimization (02/2023 - 02/2025)
 - Author: Huỳnh Tấn Phát
-- Date: /2025
+- Date: 08/2025
 - Tool Used: `SQL`, `PowerBi`
 # 🧾Table Of Contents (TOCs)
 1. **`Background & Overview`**
@@ -26,7 +26,7 @@
 4. Which is the right-selling time of each Room Number ?
 
 🎯Project Outcome:
-- x
+- 
 <img width="1102" height="594" alt="Screenshot 2025-08-22 125115" src="https://github.com/user-attachments/assets/abe31a28-7574-4e32-9d7a-30d0a08804c0" />
 
 # Dataset Description
@@ -34,7 +34,7 @@
 - Source: Data Group (https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
 - Size: The  table contains 5,000 records.
 - Format: CSV (https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
-<img width="1618" height="656" alt="image" src="https://github.com/user-attachments/assets/9a0daffb-71cc-467a-b132-a998813ece12" />
+<img width="1637" height="702" alt="image" src="https://github.com/user-attachments/assets/99dfcf2a-3730-425a-a8bb-e2ab46e545e4" />
 
 
 # Data Processing by SQL & DAX 
@@ -188,7 +188,7 @@ Avg Daily Rate (ADR) = DIVIDE(
     - Inflexible pricing strategy: AD remain rigid overtime.
 
 ## III> Room Management || Check Room Allocation in months across 2023 & 2024
-<img width="1297" height="726" alt="image" src="https://github.com/user-attachments/assets/e4a0ed1c-8457-452f-b2e3-7901d2924002" />
+<img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
 
 
 # Recommendations
