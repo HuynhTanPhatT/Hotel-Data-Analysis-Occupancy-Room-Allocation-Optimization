@@ -192,22 +192,28 @@ Avg Daily Rate (ADR) = DIVIDE(
 
 ## III> Room Management || Check Room Allocation in months across 2023 & 2024
 <img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
-The goal is to find out the xác định phòng nào hoạt động tốt và phân bổ phòng hiện tại có hiệu quả hay không
-1. Spot problems: vấn đề đến từ 3 chỉ số (Unsold / Bad Performance / Potential Revenue Loss).
-- There are 572 unsold cases across two years, resulting to $65M for unoccupied rooms
-- 1.547 trường hợp (65%)  có %OR dưới Target
-- Chỉ 849 phòng đạt target
-=> Khách Sạn vận hành quá nhiều phòng cùng lúc, nhưng hiệu quả khai thác phòng rất thấp.
-  
-3. Room Priority Bằng cách do đó cần có 1 Ranking Chart cho Room (score 0 → 100) dựa trên 3 chỉ số trên:
-    - Score for metrics: công thức = (Giá Trị / Giá Trị cao nhất) * 100
-    - Score tổng: công thức = (Unsold score + “Bad Performance” score + “Potential Revenue Loss” score) / 3
-    - Ranking Chart xác định Top 10 phòng underperforming với điểm số >80.
-    -   Cải thiện nhóm này có thể giảm unsold ~10% → nhưng chỉ là giải pháp ngắn hạn.
-5. Right-Selling Timing
+1. Spot Problems:
+Come from three key measures: Unsold, Bad Performance, Potential Revenue Loss
+  - **572** unsold cases recorded over two years, resulting to $65M in lost revenue from unoccupied rooms.
+  - **1.547** cases of underperfoming rooms, where %OR were lower than the target.
+  - Only **849** cases achieved good performance.
+  => The hotel operates too many (200) rooms per day, but room utilization effiency is extremely poor.
+
+2. Room Prioritization:
+A ranking chart (score 0 - 100) was created to identify Top 10 underperforming rooms, based on the three measures above.
+  - Score method (per measure): ```Score = (Value / Highest Value) * 100```
+  - Overall Score: ```Total Score = (Unsold + Bad Performance + Potential Revenue Loss) score / 3 ```
+  - By priotizing these Top 10, unsold cases could be reduced by ~10% -> this only a short-term solution.
+
+3. Right-Selling Timing:
+  - x
+
 4. Consequences:
-- - Tình trạng tài nguyên phòng không được sử dụng đã kéo dài trong vòng 2 năm với Unsold 2023 + Unsold 2024. Net Revenue 3 năm chỉ (~10M) so với loss (~65M)
-- Việc duy trì một lượng phòng đủ lớn nhưng không có Khách đến ở, thì Khách Sạn vẫn phải trả một khoán phí lớn để duy trì hiện trạng của Phòng (những chỉ số như doanh thu, Khách đạt phòng cao cũng không thể nào bù lắp và đem lại lợi nhuận như mong muốn).
+  - Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + Unsold 2024).
+  - From 02/2023 -> 02/2025, Net Revenue was only ~$10M compared to the ~$65M in potential revenue loss
+  - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational. Even strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
+
+
 
 # Recommendations
 
