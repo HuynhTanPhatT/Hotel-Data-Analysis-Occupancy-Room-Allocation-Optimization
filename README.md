@@ -25,9 +25,6 @@
 3. Which rooms should be prioritized for improvement?
 4. What is the optimal selling time for each room number?
 
-
-🎯Project Outcome:
-- 
 <img width="1102" height="594" alt="Screenshot 2025-08-22 125115" src="https://github.com/user-attachments/assets/abe31a28-7574-4e32-9d7a-30d0a08804c0" />
 
 # Dataset Description
