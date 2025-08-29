@@ -43,7 +43,7 @@
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
-- Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
+    - Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -135,7 +135,75 @@ Avg Daily Rate (ADR) = DIVIDE(
   RETURN DIVIDE(total_occupied_rooms, operation_days)
 ```
 
-</details>
+    - Employ some several DAX formulas to calculate **custom measure**:
+<details>
+  <summary>Click to view examples of DAX formulas</summary>
+
+    <br>
+
+- **Target Occupancy Rate**: so sánh %OR 2023 và %OR 2024 với Target OR ( Avg.%OR * 25% / 40% vào mùa cao điểm hay thấp điểm).
+
+```dax
+11_TargetOR = 
+VAR Avg_OR = 
+    DIVIDE(
+        ([11_% OR 2024] + [11_%OR 2023]),2)
+VAR Target = 
+    SWITCH(
+        TRUE(),
+        SELECTEDVALUE('Dim Date'[Travel Time]) = "High Season",0.4,
+        SELECTEDVALUE('Dim Date'[Travel Time]) = "Off Season", 0.25)
+RETURN
+Avg_OR * (1 + Target)
+```
+
+- **Bad Performance**: Hiệu suất lấp đầy phòng (%OR 2024) thấp hơn Target %OR
+
+```dax
+13_BadPerformance = 
+CALCULATE (
+    COUNTROWS ('Diff 2024 vs  2023'),
+    FILTER('Diff 2024 vs  2023',
+    [%OR 2024] < 'Diff 2024 vs  2023'[TargetOR] || [%OR 2024] = 0))
+```
+
+- **Good Performance**:
+
+```dax
+13_GoodPerformance = 
+CALCULATE (
+    COUNTROWS ('Diff 2024 vs  2023'),
+    FILTER('Diff 2024 vs  2023',
+    [%OR 2024] > 'Diff 2024 vs  2023'[TargetOR]))
+```
+
+- **Unsold Cases**:
+
+```dax
+Unsold_2_years = 
+CALCULATE (
+    COUNTROWS('Diff 2024 vs  2023'),FILTER('Diff 2024 vs  2023',
+    [%OR 2023] = 0 && [%OR 2024] =0))
+```
+
+- **Potential Revenue Loss**:
+
+```dax
+13_UnExpectedRevenueLoss = 
+SUMX(
+    VALUES('Room Table'[room_number]), // Xét giá phòng theo từng phòng (lấy calculate max thì sẽ lấy giá cao nhất toàn khách sạn, không phải từng phòng.   
+    VAR price_per_night = MAX('Room Table'[price_per_night])
+    VAR total_days = COUNTROWS(VALUES('Dim Date'[Date]))
+    VAR actual_room_revenue = [1_Room Revenue]
+    RETURN (price_per_night * total_days) - actual_room_revenue)
+```
+
+- **Score Method**:
+
+```dax
+Score = (Value / Highest Value) * 100```
+Overall Score: ```Total Score = (Unsold + Bad Performance + Potential Revenue Loss) score / 3 ```
+```
 
 # 📊Key Insights & Visualizations
 ## I. Overview
@@ -186,8 +254,6 @@ Avg Daily Rate (ADR) = DIVIDE(
 =>The hotel operates too many (200) rooms per day, but room utilization efficiency is extremely poor.
 
 2. Room Prioritization: A ranking chart (score 0-100) was created to identify the Top 10 underperforming rooms, based on the three measures above.
-  - Score method (per measure): ```Score = (Value / Highest Value) * 100```
-  - Overall Score: ```Total Score = (Unsold + Bad Performance + Potential Revenue Loss) score / 3 ```
   - By priotizing these Top 10, unsold cases could be reduced by ~10% -> this only a short-term solution.
 
 3. Right-Selling Timing:
