@@ -43,7 +43,7 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
-  - `Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs)`:
+  - `Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -119,7 +119,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 ```
 </details>
 
-  - `Employ some several DAX formulas to calculate **Custom Measure**`:
+  - `Employ some several DAX formulas to calculate Custom Measure`:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -240,6 +240,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 => The hotel operates too many (**200**) rooms/per day, but room utilization efficiency is extremely poor.
 
 2. **Room Prioritization**: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above.
+
 => By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
 
 3. **Right-Selling Timing**:
@@ -252,9 +253,4 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 # Recommendations
 
-
-
 # Conclusion
-
-
-
