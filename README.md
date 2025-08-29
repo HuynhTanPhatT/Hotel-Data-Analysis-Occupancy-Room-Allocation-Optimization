@@ -136,7 +136,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 ```
 </details>
 
-    - Employ some several DAX formulas to calculate **Custom Measure**:
+  - Employ some several DAX formulas to calculate **Custom Measure**:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
