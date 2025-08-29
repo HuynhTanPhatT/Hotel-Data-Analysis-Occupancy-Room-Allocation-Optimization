@@ -43,7 +43,7 @@
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
-  a. Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs):
+    - Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs):
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -136,7 +136,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 ```
 </details>
 
-  b. Employ some several DAX formulas to calculate **Custom Measure**:
+    - Employ some several DAX formulas to calculate **Custom Measure**:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -206,6 +206,7 @@ Score = (Value / Highest Value) * 100```
 Overall Score: ```Total Score = (Unsold + Bad Performance + Potential Revenue Loss) score / 3 ```
 ```
 </details>
+
 # 📊Key Insights & Visualizations
 ## I. Overview
 <img width="1301" height="730" alt="image" src="https://github.com/user-attachments/assets/ef46418e-6ad0-4bf8-aeb1-45a10b73d9d7" />
