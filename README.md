@@ -43,7 +43,7 @@
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
-    - Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
+    - Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs):
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -135,11 +135,11 @@ Avg Daily Rate (ADR) = DIVIDE(
   RETURN DIVIDE(total_occupied_rooms, operation_days)
 ```
 
-  - Employ some several DAX formulas to calculate **custom measure**:
+  - Employ some several DAX formulas to calculate **Custom Measure**:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
-    <br>
+  <br>
 
 - **Target Occupancy Rate**: so sánh %OR 2023 và %OR 2024 với Target OR ( Avg.%OR * 25% / 40% vào mùa cao điểm hay thấp điểm).
 
