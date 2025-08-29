@@ -3,11 +3,11 @@
 - Date: 08/2025
 - Tool Used: `SQL`, `PowerBi`
 # 🧾Table Of Contents (TOCs)
-1. [**`Background & Overview`**]
-2. [**`Dataset Description`**]
-3. [**`Data Processing (SQL) & Metrics Defination (DAX)`**]
-4. [**`Key Insights & Visualizations`**]
-5. [**`Recommendations`**]
+1. [Background & Overview]
+2. [Dataset Description]
+3. [Data Processing (SQL) & Metrics Defination (DAX)]
+4. [Key Insights & Visualizations]()
+5. [Recommendations]
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
@@ -77,24 +77,7 @@ CALCULATE(
 RETURN
 - cancellation
 ```
-
-- **Revenue Loss**:
-
-```dax
-Revenue Loss = 
-VAR revenue_loss = 
-CALCULATE(
-    SUMX(booking_table,
-    booking_table[price_per_night] * booking_table[stay_duration]),
-    FILTER(booking_table, 
-    booking_table[booking_status] = "Cancelled" &&
-    (booking_table[booking_flag] <> "Double Booking" ||ISBLANK(booking_table[booking_flag]))
-    ))
-RETURN
-- revenue_loss
-```
-
-- **Avg. Daily Rate**: Room Revenues / Room Sold
+- **Avg. Daily Rate**:
 ```dax
 Avg Daily Rate (ADR) = DIVIDE(
     CALCULATE(
@@ -111,7 +94,7 @@ Avg Daily Rate (ADR) = DIVIDE(
         (ISBLANK(booking_table[booking_flag]) ||booking_table[booking_flag] <> "Double Booking"))))
 ```
 
-- **Occupancy Rate**: Rooms Sold / Room Available
+- **Occupancy Rate**:
 
 ```dax
 % Occupancy Rate by date = 
@@ -145,10 +128,8 @@ Avg Daily Rate (ADR) = DIVIDE(
 - **Target Occupancy Rate**: so sánh %OR 2023 và %OR 2024 với Target OR ( Avg.%OR * 25% / 40% vào mùa cao điểm hay thấp điểm).
 
 ```dax
-11_TargetOR = 
-VAR Avg_OR = 
-    DIVIDE(
-        ([11_% OR 2024] + [11_%OR 2023]),2)
+TargetOR = 
+VAR Avg_OR = DIVIDE(([11_% OR 2024] + [11_%OR 2023]),2)
 VAR Target = 
     SWITCH(
         TRUE(),
@@ -161,24 +142,24 @@ Avg_OR * (1 + Target)
 - **Bad Performance**: Hiệu suất lấp đầy phòng (%OR 2024) thấp hơn Target %OR
 
 ```dax
-13_BadPerformance = 
+BadPerformance = 
 CALCULATE (
     COUNTROWS ('Diff 2024 vs  2023'),
     FILTER('Diff 2024 vs  2023',
     [%OR 2024] < 'Diff 2024 vs  2023'[TargetOR] || [%OR 2024] = 0))
 ```
 
-- **Good Performance**:
+- **Good Performance**: Hiệu suất lấp đầy phòng (%OR 2024) cao hơn Target %OR
 
 ```dax
-13_GoodPerformance = 
+GoodPerformance = 
 CALCULATE (
     COUNTROWS ('Diff 2024 vs  2023'),
     FILTER('Diff 2024 vs  2023',
     [%OR 2024] > 'Diff 2024 vs  2023'[TargetOR]))
 ```
 
-- **Unsold Cases**:
+- **Unsold Cases**: 1 tháng liên tiếp trong 2 năm không bán được phòng
 
 ```dax
 Unsold_2_years = 
@@ -187,12 +168,12 @@ CALCULATE (
     [%OR 2023] = 0 && [%OR 2024] =0))
 ```
 
-- **Potential Revenue Loss**:
+- **Potential Revenue Loss**: Doanh thu bị mất do phòng trống một ngày 
 
 ```dax
-13_UnExpectedRevenueLoss = 
+UnexpectedRevenueLoss = 
 SUMX(
-    VALUES('Room Table'[room_number]), // Xét giá phòng theo từng phòng (lấy calculate max thì sẽ lấy giá cao nhất toàn khách sạn, không phải từng phòng.   
+    VALUES('Room Table'[room_number]), 
     VAR price_per_night = MAX('Room Table'[price_per_night])
     VAR total_days = COUNTROWS(VALUES('Dim Date'[Date]))
     VAR actual_room_revenue = [1_Room Revenue]
@@ -202,8 +183,8 @@ SUMX(
 - **Score Method**:
 
 ```dax
-Score = (Value / Highest Value) * 100```
-Overall Score: ```Total Score = (Unsold + Bad Performance + Potential Revenue Loss) score / 3 ```
+Score = (Value / Highest Value) * 100
+Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss) score / 3
 ```
 </details>
 
