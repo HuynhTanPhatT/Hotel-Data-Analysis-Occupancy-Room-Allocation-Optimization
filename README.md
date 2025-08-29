@@ -43,7 +43,7 @@
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
-    - Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs):
+  - Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs):
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
