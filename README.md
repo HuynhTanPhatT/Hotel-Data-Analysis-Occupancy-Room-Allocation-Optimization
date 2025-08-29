@@ -244,7 +244,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 => By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
 
 3. **Right-Selling Timing**:
-    - 
+    - x
 
 4. **Consequences**:
     - Hotel resources have `remained underutilized for two consecutive years` (Unsold 2023 + Unsold 2024).
