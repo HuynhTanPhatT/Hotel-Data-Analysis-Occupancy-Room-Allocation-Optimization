@@ -5,7 +5,7 @@
 # 🧾Table Of Contents (TOCs)
 1. **`Background & Overview`**
 2. **`Dataset Description`**
-3. **`Data Processing by SQL & DAX`**
+3. **`Data Processing (SQL) & Metrics Defination (DAX)`**
 4. **`Key Insights & Visualizations`**
 5. **`Recommendations`**
 # 📌Background & Overview
@@ -29,20 +29,19 @@
 
 # Dataset Description
 📌 Data Source:
-- Source: Data Group (https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
+- Source: Data Group in [Facebook](https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
 - Size: The  table contains 5,000 records.
-- Format: CSV (https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
+- Format: [CSV](https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
 <img width="1637" height="702" alt="image" src="https://github.com/user-attachments/assets/99dfcf2a-3730-425a-a8bb-e2ab46e545e4" />
 
 
 # Data Processing by SQL & DAX 
-Using SQL to detect `Data Anomalies` 
-(https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
+1. Using SQL to detect [Data Anomalies](https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
   - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
   - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
   - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
-DAX Calculations & Formulas
+2. DAX Calculations & Formulas
 - Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
 <details>
   <summary>Click to view examples of DAX formulas</summary>
