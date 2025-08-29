@@ -13,17 +13,18 @@
 📖What is this project about?
 - This project aims to build **PowerBi Dashboards** from the `Hotel Booking dataset`m which includes **booking-related data** (Confirmed Bookings, Pending, Cancelled Bookings), check-in & check-out dates. Additionally, it also has **service-related data** (service price, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with data-driven insights to:
   - Understand the current business performance.
-  - Evaluate the room allocation efficiency.
-  - Identify the root cause of low %OR
+  - Identify the root cause of poor Occupancy Rate.
+  - Evaluate room allocation & utilization efficiency.
 
 🥷 Who is this project for ?
 - Hotel Management Team
   
 ❓Business Questions:
-1. What is the current business performance of the hotel ?
-2. Why is the Occupancy Rate low bench-mark to the standard ?
-3. What are we going to the with Double Bookings ?
-4. Which is the right-selling time of each Room Number ?
+1. What is the hotel's current business performance?
+2. Why is the Occupancy Rate below the industry benchmark?
+3. Which rooms should be prioritized for improvement?
+4. What is the optimal selling time for each room number?
+
 
 🎯Project Outcome:
 - 
@@ -197,7 +198,7 @@ Avg Daily Rate (ADR) = DIVIDE(
   - **572** unsold cases recorded over two years, resulting to $65M in lost revenue from unoccupied rooms.
   - **1.547** cases of underperforming rooms, where %OR were lower than the target.
   - Only **849** cases achieved good performance.
-=>The hotel operates too many (200) rooms per day, but room utilization efficiency is extremely poor.
+    =>The hotel operates too many (200) rooms per day, but room utilization efficiency is extremely poor.
 
 2. Room Prioritization: A ranking chart (score 0-100) was created to identify the Top 10 underperforming rooms, based on the three measures above.
   - Score method (per measure): ```Score = (Value / Highest Value) * 100```
