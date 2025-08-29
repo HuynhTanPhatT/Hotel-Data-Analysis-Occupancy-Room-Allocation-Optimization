@@ -3,11 +3,11 @@
 - Date: 08/2025
 - Tool Used: `SQL`, `PowerBi`
 # 🧾Table Of Contents (TOCs)
-1. **`Background & Overview`**
-2. **`Dataset Description`**
-3. **`Data Processing (SQL) & Metrics Defination (DAX)`**
-4. **`Key Insights & Visualizations`**
-5. **`Recommendations`**
+1. [**`Background & Overview`**]
+2. [**`Dataset Description`**]
+3. [**`Data Processing (SQL) & Metrics Defination (DAX)`**]
+4. [**`Key Insights & Visualizations`**]
+5. [**`Recommendations`**]
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
@@ -36,10 +36,11 @@
 
 
 # Data Processing by SQL & DAX 
+
 1. Using SQL to detect [Data Anomalies](https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
-  - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
-  - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
-  - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
+    - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
+    - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
+    - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
 - Employ some several DAX formulas to calculate **key performance indicators** (KPIs):
