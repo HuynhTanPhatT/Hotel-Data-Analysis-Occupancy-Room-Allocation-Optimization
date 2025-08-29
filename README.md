@@ -135,7 +135,7 @@ Avg Daily Rate (ADR) = DIVIDE(
   RETURN DIVIDE(total_occupied_rooms, operation_days)
 ```
 
-    - Employ some several DAX formulas to calculate **custom measure**:
+  - Employ some several DAX formulas to calculate **custom measure**:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
