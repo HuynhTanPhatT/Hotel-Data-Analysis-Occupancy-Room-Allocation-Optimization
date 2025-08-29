@@ -3,11 +3,11 @@
 - Date: 08/2025
 - Tool Used: `SQL`, `PowerBi`
 # 🧾Table Of Contents (TOCs)
-1. [Background & Overview]
-2. [Dataset Description]
-3. [Data Processing (SQL) & Metrics Defination (DAX)]
+1. [Background & Overview]()
+2. [Dataset Description]()
+3. [Data Processing (SQL) & Metrics Defination (DAX)]()
 4. [Key Insights & Visualizations]()
-5. [Recommendations]
+5. [Recommendations]()
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
