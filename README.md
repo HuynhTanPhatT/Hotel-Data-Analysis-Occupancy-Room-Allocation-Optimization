@@ -11,7 +11,7 @@
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
-- This project aims to build **PowerBi Dashboards** from the `Hotel Booking dataset`m which includes **booking-related data** (Confirmed Bookings, Pending, Cancelled Bookings), check-in & check-out dates. Additionally, it also has **service-related data** (service price, usage) and **room-related details** (price per night, room type, room number). The goal is to provide **Hotel Management Team** with data-driven insights to:
+This project aims to build a **PowerBi Dashboard** with four pages using the `Hotel Booking Dataset` which includes **booking-related data** (Confirmed Bookings, Pending, Cancelled Bookings), check-in & check-out dates. Additionally, it also has **service-related data** (service price, usage) and **room-related data** (price, room type, room number). The goal is to provde **Hotel Management Team** with data-driven insights to:
   - Understand the current business performance.
   - Identify the root cause of poor Occupancy Rate.
   - Evaluate room allocation & utilization efficiency.
@@ -43,7 +43,7 @@
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
 2. DAX Calculations & Formulas
-  - Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs):
+  - `Employ some several DAX formulas to calculate **Key Performance Indicators** (KPIs)`:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -119,7 +119,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 ```
 </details>
 
-  - Employ some several DAX formulas to calculate **Custom Measure**:
+  - `Employ some several DAX formulas to calculate **Custom Measure**`:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
 
@@ -194,60 +194,61 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 - The fluctuation of metrics over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, by comparing months that exceeded the two-year average.
 - Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
-    - Confirmed Bookings: 2.839 bookings (76.37%)
-    - Cancelled Bookings: 444 bookings (12%)
-    - Pending Bookings: 417 bookings (11.27%)
-1. Booking Behavior:
-    - Customers' booking trends leaned toward the mid-to-late months of the year which exceeding the average (Jun,Jul, Sep,Oct,Dec) -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
+    - Confirmed Bookings: **2.839 bookings** (76.37%)
+    - Cancelled Bookings: **444 bookings** (12%)
+    - Pending Bookings: **417 bookings** (11.27%)
+1. **Booking Behavior**:
+    - Customers' booking trends **leaned toward the mid-to-late months of the year** which exceeding the average (Jun,Jul, Sep,Oct,Dec) -> A growth trend focused on the high season (Summer, Winter and the period before Tet).
 
-2. Gross Revenue & Cancellations:
-    - Gross Revenue increased steadily over the years and reached 8.23M, with stable months (Jun, July,Sep,Dec). However, 444 cancellations caused (~901K) in revenue loss.
-    - Net Revenue distribution by room type: Presidential (~$1.182M), Deluxe(~$1.166M), Executive(~$1.090M), Suite(~$940K), Standard(~$900K)
+2. **Gross Revenue** & **Cancellations**:
+    - Gross Revenue increased steadily over the years and reached **8.23M**, with stable months (Jun, July,Sep,Dec). However, **444 cancellations** caused (~901K) in revenue loss.
+    - Net Revenue distribution by room type: Presidential ($1.182M), Deluxe($1.166M), Executive($1.090M), Suite($940K), Standard($900K)
 
-3. ADR & Occupancy Rate:
-    - ADR remained flat ($247-$300), indicating that the management did not adjust the pricing for room numbers to stimute sales.
-    - Occupancy Rate (OR): ~14%, below the industry benchmark (60-70%), even with 200 available rooms.
+3. **ADR** & **Occupancy Rate**:
+    - ADR remained flat ($247-$300) -> indicating that the management did not adjust the pricing for room numbers to stimute sales.
+    - Occupancy Rate (OR): (~14%), below the industry benchmark (60-70%), even with 200 available rooms.
+
 => **`Low OR is the root cause affecting other metrics: bookings, revenue,etc)`**.
 
 
 ## II. Occupancy Rate (%OR) Analysis
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/f6999b90-5f54-4f8d-bbde-7464fc73dd13" />
 
-- The reasons for "Why the Occupancy Rate low" come from 3 factors: Cancelled Room Nights, Sold Rooms, and ADR.
+- The reasons for `"Why the Occupancy Rate low"` come from 3 factors: **Cancelled Room Nights**, **Sold Rooms**, and **ADR**.
 1. Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
   
-2. Low Sold Rooms: 2023 (8.674 room nights) && 2024 (9.953 room nights)
+2. Low Sold Rooms: 2023 (**8.674** room nights) && 2024 (**9.953** room nights)
    - Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
-   - There is a gap between capacity and actual room ulitization by the hotel.
 
-3. ADR: The price ranges from $51 -> $500, but the performance of each room is bad across all the price segments -> Despite high/low ADR, it cant improve the %OR.
+=> **`There is a gap between capacity and actual room ulitization by the hotel.`**
+
+3. ADR: The price ranges from ($51 - $500), but the performance of each room is poor across all the price segments -> Despite high/low ADR, it cant improve the %OR.
 
 - Why did it happend ?
-    - No demand stimulation actions from the hotel management: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
-    - Inefficient rooms: Room numbers consistently underperformed.
-    - Inflexible pricing strategy: AD remain rigid overtime.
+    - `No demand stimulation actions` from the hotel management: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
+    - `Inefficient rooms`: Room numbers consistently underperformed.
+    - `Inflexible pricing strategy`: AD remained rigid overtime.
 
 ## III> Room Management || Check Room Allocation in months across 2023 & 2024
 <img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
 
-1. Spot Problems: Come from three key measures: Unsold, Bad Performance, Potential Revenue Loss
-    - **572** unsold cases recorded over two years, resulting to $65M in lost revenue from unoccupied rooms.
-    - **1.547** cases of underperforming rooms, where %OR were lower than the target.
-    - Only **849** cases achieved good performance.
-=>The hotel operates too many (200) rooms per day, but room utilization efficiency is extremely poor.
+1. **Spot Problems**: Come from three key measures (**Unsold**, **Bad Performance**, **Potential**.
+    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms`.
+    - **1.547** cases of underperforming rooms, where Occupancy Rate (%OR) were lower than the target.
+    - Only **849** cases achieved good performance
 
-2. Room Prioritization: A ranking chart (score 0-100) was created to identify the Top 10 underperforming rooms, based on the three measures above.
-  - By priotizing these Top 10, unsold cases could be reduced by ~10% -> this only a short-term solution.
+=> The hotel operates too many (**200**) rooms/per day, but room utilization efficiency is extremely poor.
 
-3. Right-Selling Timing:
-  - 
+2. **Room Prioritization**: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above.
+=> By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
 
-4. Consequences:
-  - Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + Unsold 2024).
-  - From 02/2023 -> 02/2025, Net Revenue was only ~$10M compared to the ~$65M in potential revenue loss
-  - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational. Even strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
+3. **Right-Selling Timing**:
+    - 
 
-
+4. **Consequences**:
+    - Hotel resources have `remained underutilized for two consecutive years` (Unsold 2023 + Unsold 2024).
+    - From 02/2023 -> 02/2025, Net Revenue was only ~$10M compared to the ~$65M in potential revenue loss
+    - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational. Even strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
 
 # Recommendations
 
