@@ -36,7 +36,8 @@
 
 
 # Data Processing by SQL & DAX 
-Using SQL to detect `Data Anomalies` (https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
+Using SQL to detect `Data Anomalies` 
+(https://github.com/HuynhTanPhatT/Hotel-Data-Analysis-Occupancy-Room-Allocation-Optimization/blob/main/SQL/2_SQL%20-%20Identify%20Data%20Anomaly.sql)
   - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
   - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
   - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
@@ -92,20 +93,7 @@ CALCULATE(
 RETURN
 - revenue_loss
 ```
-- **Avg. Length of Stay**: Total Number Of Room Nights / Total Number Of Bookings
 
-```dax
-Averge Length of Stay = 
-DIVIDE(
-    CALCULATE(SUM(booking_table[stay_duration]),
-    FILTER(booking_table,
-    (ISBLANK(booking_table[booking_flag]) || booking_table[booking_flag] <> "Double Booking") &&
-    booking_table[booking_status] = "Confirmed")),
-    CALCULATE(COUNTROWS(booking_table),
-    FILTER(booking_table,
-    booking_table[booking_status] = "Confirmed" &&
-    (ISBLANK(booking_table[booking_flag]) || booking_table[booking_flag] <> "Double Booking"))))
-```
 - **Avg. Daily Rate**: Room Revenues / Room Sold
 ```dax
 Avg Daily Rate (ADR) = DIVIDE(
@@ -192,10 +180,10 @@ Avg Daily Rate (ADR) = DIVIDE(
 <img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
 
 1. Spot Problems: Come from three key measures: Unsold, Bad Performance, Potential Revenue Loss
-  - **572** unsold cases recorded over two years, resulting to $65M in lost revenue from unoccupied rooms.
-  - **1.547** cases of underperforming rooms, where %OR were lower than the target.
-  - Only **849** cases achieved good performance.
-    =>The hotel operates too many (200) rooms per day, but room utilization efficiency is extremely poor.
+    - **572** unsold cases recorded over two years, resulting to $65M in lost revenue from unoccupied rooms.
+    - **1.547** cases of underperforming rooms, where %OR were lower than the target.
+    - Only **849** cases achieved good performance.
+=>The hotel operates too many (200) rooms per day, but room utilization efficiency is extremely poor.
 
 2. Room Prioritization: A ranking chart (score 0-100) was created to identify the Top 10 underperforming rooms, based on the three measures above.
   - Score method (per measure): ```Score = (Value / Highest Value) * 100```
@@ -203,7 +191,7 @@ Avg Daily Rate (ADR) = DIVIDE(
   - By priotizing these Top 10, unsold cases could be reduced by ~10% -> this only a short-term solution.
 
 3. Right-Selling Timing:
-  - x
+  - 
 
 4. Consequences:
   - Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + Unsold 2024).
