@@ -228,7 +228,8 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
     - Inflexible pricing strategy: AD remained rigid overtime.
 
 ## III> Room Management | Room Allocation & Right-Selling Time
-<img width="1301" height="731" alt="image" src="https://github.com/user-attachments/assets/1cf1e48d-7be3-4a54-9f8e-3acd8aad7384" />
+<img width="1302" height="723" alt="image" src="https://github.com/user-attachments/assets/d5ecce06-602f-4290-8970-d50666f83f67" />
+
 
 
 - The hotel operates 200 rooms per day, but allocation and selling-time utilization are ineffective.
@@ -236,7 +237,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
     - Revenue loss from unoccupied rooms over two years and lost revenue from unoccupied rooms
 
 - These inefficiencies come from three custom measures: **Unsold**, **Bad Performance**, **Potential Revenue Loss**.
-    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> (02/2023-02/2025) **Net Revenue** was only ~$10M compared to the ~$65M in potential revenue loss.
+    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> (02/2023-02/2025) **Net Revenue** was only ~$7M compared to the ~$65M in potential revenue loss.
     - **1.547** cases of underperforming cases, where Occupancy Rate (%OR) were lower than the target.
     - Only **849** cases achieved good performance
 
