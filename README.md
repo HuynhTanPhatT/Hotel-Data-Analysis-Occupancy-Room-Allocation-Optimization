@@ -225,31 +225,25 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 3. ADR: The price ranges from ($51 - $500), but the performance of each room is poor across all the price segments -> Despite high/low ADR, it cant improve the %OR.
 
 - Why did it happend ?
-    - `No demand stimulation actions` from the hotel management: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
-    - `Inefficient rooms`: Room numbers consistently underperformed.
-    - `Inflexible pricing strategy`: AD remained rigid overtime.
+    - No demand stimulation actions: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
+    - Inefficient rooms: Room numbers consistently underperformed.
+    - Inflexible pricing strategy: AD remained rigid overtime.
 
-## III> Room Management || Check Room Allocation in months across 2023 & 2024
+## III> Room Management | Room Allocation & Right-Selling Time
 <img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
-
-1. **Spot Problems**: Come from three key measures (**Unsold**, **Bad Performance**, **Potential**.
-    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms`.
+- The allocation for selling time in seasonality of each room is not effiective and currently the hotel is facing an issue: maintaining a large number of unsold rooms generates high fixed costs to keep them operational and lost revenue from unoccupied rooms. These inefficiencies come from three custom measures: **Unsold**, **Bad Performance**, **Potential Revenue Loss**.
+    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> From 02/2023 -> 02/2025, **Net Revenue** was only ~$10M compared to the ~$65M in potential revenue loss.
     - **1.547** cases of underperforming rooms, where Occupancy Rate (%OR) were lower than the target.
     - Only **849** cases achieved good performance
+    
+=> **`The hotel operates too many (200) rooms/per day, but room utilization efficiency is extremely poor.`**
+- Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + 2024). As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
+- A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
+- 
 
-=> The hotel operates too many (**200**) rooms/per day, but room utilization efficiency is extremely poor.
 
-2. **Room Prioritization**: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above.
 
-=> By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
 
-3. **Right-Selling Timing**:
-    - x
-
-4. **Consequences**:
-    - Hotel resources have `remained underutilized for two consecutive years` (Unsold 2023 + Unsold 2024).
-    - From 02/2023 -> 02/2025, Net Revenue was only ~$10M compared to the ~$65M in potential revenue loss
-    - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational. Even strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
 
 # Recommendations
 
