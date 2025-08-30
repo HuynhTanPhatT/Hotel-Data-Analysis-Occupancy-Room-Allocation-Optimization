@@ -245,7 +245,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
     - Poor seasonality-based allocation -> wrong timing for selling rooms
     - Large operation capacity (200 rooms/day) vs. actual.
 
-=>🚩 Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + 2024). As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
+=>🚩 Hotel resources have remained underutilized for two consecutive years. As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
 
 
 
