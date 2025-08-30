@@ -1,4 +1,4 @@
-# 🏨Hotel Data Analysis: Occupancy & Room Allocation Optimization (02/2023 - 02/2025)
+ # 🏨Hotel Data Analysis: Occupancy & Room Allocation Optimization (02/2023 - 02/2025)
 - Author: Huỳnh Tấn Phát
 - Date: 08/2025
 - Tool Used: `SQL`, `PowerBi`
@@ -220,11 +220,9 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 2. Low Sold Rooms: 2023 (**8.674** room nights) && 2024 (**9.953** room nights)
    - Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
 
-=> **`There is a gap between capacity and actual room ulitization by the hotel.`**
-
 3. ADR: The price ranges from ($51 - $500), but the performance of each room is poor across all the price segments -> Despite high/low ADR, it cant improve the %OR.
 
-- Why did it happend ?
+- **`Why did it happend`** ?
     - No demand stimulation actions: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
     - Inefficient rooms: Room numbers consistently underperformed.
     - Inflexible pricing strategy: AD remained rigid overtime.
@@ -232,21 +230,25 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## III> Room Management | Room Allocation & Right-Selling Time
 <img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
 
-- The allocation for selling time in seasonality of each room is not effiective and currently the hotel is facing an issue: maintaining a large number of unsold rooms generates high fixed costs to keep them operational and lost revenue from unoccupied rooms. These inefficiencies come from three custom measures: **Unsold**, **Bad Performance**, **Potential Revenue Loss**.
-    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> From 02/2023 -> 02/2025, **Net Revenue** was only ~$10M compared to the ~$65M in potential revenue loss.
-    - **1.547** cases of underperforming rooms, where Occupancy Rate (%OR) were lower than the target.
+- The hotel operates 200 rooms per day, but allocation and selling-time utilization are ineffective.
+    - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational
+    - Revenue loss from unoccupied rooms over two years and lost revenue from unoccupied rooms
+
+- These inefficiencies come from three custom measures: **Unsold**, **Bad Performance**, **Potential Revenue Loss**.
+    - **572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> (02/2023-02/2025) **Net Revenue** was only ~$10M compared to the ~$65M in potential revenue loss.
+    - **1.547** cases of underperforming cases, where Occupancy Rate (%OR) were lower than the target.
     - Only **849** cases achieved good performance
-    
-=> **`The hotel operates too many (200) rooms/per day, but room utilization efficiency is extremely poor.`**
 
-- Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + 2024). As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
-- A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
-- 
+- **`Why did it happen ?`**:
+    - 
 
-
+=>🚩 Hotel resources have remained underutilized for two consecutive years (Unsold 2023 + 2024). As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
 
 
 
 # Recommendations
 
-# Conclusion
+1. Room Allocation & Selling Timing
+  - Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
+  - Long-term action:
+
