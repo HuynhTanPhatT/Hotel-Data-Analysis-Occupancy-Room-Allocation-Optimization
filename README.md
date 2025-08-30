@@ -228,7 +228,8 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
     - Inflexible pricing strategy: AD remained rigid overtime.
 
 ## III> Room Management | Room Allocation & Right-Selling Time
-<img width="1295" height="727" alt="image" src="https://github.com/user-attachments/assets/a3798b14-121f-49a4-a5d2-007ec6f3c9b8" />
+<img width="1301" height="731" alt="image" src="https://github.com/user-attachments/assets/1cf1e48d-7be3-4a54-9f8e-3acd8aad7384" />
+
 
 - The hotel operates 200 rooms per day, but allocation and selling-time utilization are ineffective.
     - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational
