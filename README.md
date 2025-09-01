@@ -252,7 +252,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 # 💡Recommendations
 
 | Strategy    | Insight      | Recommendation    |
-|:-----------:|:----------:|:----------:|
+|:-----------|:----------:|----------:|
 | 1. Room Allocation & Selling Timing|        | Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.| 
 | d          | e          | f         |
 
