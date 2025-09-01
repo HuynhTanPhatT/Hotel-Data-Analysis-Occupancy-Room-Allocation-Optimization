@@ -25,7 +25,7 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
 3. Which rooms should be prioritized for improvement?
 4. What is the optimal selling time for each room number?
 
-<img width="1102" height="594" alt="Screenshot 2025-08-22 125115" src="https://github.com/user-attachments/assets/abe31a28-7574-4e32-9d7a-30d0a08804c0" />
+<img width="1149" height="675" alt="image" src="https://github.com/user-attachments/assets/92d53930-dcfc-493c-bb69-4f8adf3effd4" />
 
 # Dataset Description
 📌 Data Source:
@@ -252,7 +252,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 # 💡Recommendations
 
 | Strategy    | Insight      | Recommendation    |
-|:-----------|:----------:|----------:|
+|:-----------:|:----------:|:----------:|
 | 1. Room Allocation & Selling Timing|        | Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.| 
 | d          | e          | f         |
 
