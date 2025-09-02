@@ -73,30 +73,4 @@ FROM daily_booked_by_check_in dbb
 JOIN total_available_room_segment  tar
 ON dbb.room_type = tar.room_type
 ORDER BY dbb.curr_check_in;
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
--- Sự khác biệt giữa các phòng là gì 
--- Các phòng của từng loại phòng 
-With common_table as (
-SELECT	sui.booking_id, room_type, room_number, price_per_night as room_price,
-		service_name, quantity, price as service_price
-FROM hotel_guest_booking hgb
-RIGHT JOIN service_usage_info sui
-ON hgb.booking_id = sui.booking_id)
-SELECT	room_type, room_number,
-		SUM(CASE WHEN service_name = 'Airport Pickup' then quantity else 0 END) as "Airport Pickup",
-		SUM(CASE WHEN service_name = 'Breakfast' then quantity else 0 END) as "Breakfast",
-		SUM(CASE WHEN service_name = 'Gym' then quantity else 0 END) as "Gym",
-		SUM(CASE WHEN service_name = 'Laundry' then quantity else 0 END) as "Laundry",
-		SUM(CASE WHEN service_name = 'Mini Bar' then quantity else 0 END) as "Mini Bar",
-		SUM(CASE WHEN service_name = 'Room Service' then quantity else 0 END) as "Room Service",
-		SUM(CASE WHEN service_name = 'Spa' then quantity else 0 END) as "Spa",
-		SUM(CASE WHEN service_name = 'Tour Package' then quantity else 0 END) as "Tour Package",
-		SUM(CASE WHEN service_name = 'VIP Lounge' then quantity else 0 END) as "VIP Lounge",
-		sum(quantity) as total
-FROM common_table
-GROUP BY room_type, room_number
-ORDER BY sum(quantity) desc;
-
-
