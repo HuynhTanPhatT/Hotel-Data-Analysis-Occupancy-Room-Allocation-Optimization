@@ -192,7 +192,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## I. Overview
 <img width="1301" height="730" alt="image" src="https://github.com/user-attachments/assets/ef46418e-6ad0-4bf8-aeb1-45a10b73d9d7" />
 
-- The fluctuation of metrics over the years is not large, but it is enough for us to evaluate the hotel's siatuation up to now, by comparing months that exceeded the two-year average.
+- The fluctuation of metrics over the years is not large, but it is enough to evaluate the hotel's siatuation up to now, by comparing months that exceeded the two-year average.
 - Firstly, the total number of bookings recorded from (02/2023 -> 02/2025) was **3.700** bookings:
     - Confirmed Bookings: **2.839 bookings** (76.37%)
     - Cancelled Bookings: **444 bookings** (12%)
