@@ -250,7 +250,8 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## IV> Hotel Operation Analysi | Double Booking
 
 <details>
-  <summary> To Identify a **Double Booking Case**:
+  <summary> To Identify a **Double Booking Case**</summary>
+
    - A case for a Room Number is defined based on:
      - The starting time from `min(check_in)` to `max(check_out)`
      - All BookingIDs with overlapping time periods within this period are grouped into the same case.
@@ -260,7 +261,6 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
   <br>
    
-  </summary>
 </details>
  
 # 💡Recommendations
