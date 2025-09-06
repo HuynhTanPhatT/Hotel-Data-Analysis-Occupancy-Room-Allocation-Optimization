@@ -249,6 +249,20 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 ## IV> Hotel Operation Analysi | Double Booking
 
+<details>
+  <summary> To Identify a **Double Booking Case**:
+   - A case for a Room Number is defined based on:
+     - The starting time from `min(check_in)` to `max(check_out)`
+     - All BookingIDs with overlapping time periods within this period are grouped into the same case.
+   = If a new BookingID has `check_in` > `check_Out` of the previous case -> a new case will be created
+
+<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
+
+  <br>
+   
+  </summary>
+</details>
+ 
 # 💡Recommendations
 
 | Strategy    | Insight      | Recommendation    |
