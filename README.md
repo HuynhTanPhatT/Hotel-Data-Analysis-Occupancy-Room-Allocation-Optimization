@@ -250,12 +250,21 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## IV> Hotel Operation Analysi | Double Booking
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/fca0896e-2696-42f8-877b-47f694273486" />
 
+### Double Booking Case Identification
+
+A **Double Booking Case** for a given `Room Number` is defined as follows:
+
+- The case covers the time range from **`min(check_in)`** to **`max(check_out)`**.
+- All `BookingID`s with **overlapping time intervals** within this range belong to the same case.
+- If a new `BookingID` has `check_in` **later than** the `check_out` of the previous case → a **new case** will be created.
+
 <details>
-  <summary> To Identify a Double Booking Case</summary>
+  <summary>To Identify a Double Booking Case</summary>
    - A case for a Room Number is defined based on:
-     - The starting time from `min(check_in)` to `max(check_out)`
-     - All BookingIDs with overlapping time periods within this period are grouped into the same case.
+   - The starting time from `min(check_in)` to `max(check_out)`
+   - All BookingIDs with overlapping time periods within this period are grouped into the same case.
    - If a new BookingID has `check_in` > `check_Out` of the previous case -> a new case will be created
+ 
 <img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
   <br>
 </details>
