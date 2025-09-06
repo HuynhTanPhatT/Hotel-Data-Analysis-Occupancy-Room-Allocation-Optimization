@@ -247,7 +247,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 =>🚩 Hotel resources have remained underutilized for two consecutive years. As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
 
-
+## IV> Hotel Operation Analysi | Double Booking
 
 # 💡Recommendations
 
