@@ -11,7 +11,7 @@
 # 📌Background & Overview
 ## Objective:
 📖What is this project about?
-This project aims to build a **PowerBi Dashboard** with four pages using the `Hotel Booking Dataset` which includes **booking-related data** (Confirmed Bookings, Pending, Cancelled Bookings), check-in & check-out dates. Additionally, it also has **service-related data** (service price, usage) and **room-related data** (price, room type, room number). The goal is to provde **Hotel Management Team** with data-driven insights to:
+This project aims to build a **PowerBi Dashboard** with four pages using the `Hotel Booking Dataset` which includes **booking-related data** (Confirmed Bookings, Pending, Cancelled Bookings), check-in & check-out dates. Additionally, it also has **service-related data** (service price, usage) and **room-related data** (price, room type, room number). The goal is to provide **Hotel Management Team** with data-driven insights to:
   - Understand the current business performance.
   - Identify the root cause of poor Occupancy Rate.
   - Evaluate room allocation & utilization efficiency.
@@ -31,9 +31,9 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
 # Dataset Description
 📌 Data Source:
 - Source: Data Group in [Facebook](https://www.facebook.com/groups/666803394396808?multi_permalinks=1289686542108487&hoisted_section_header_type=recently_seen)
-- Size: The  table contains 5,000 records.
+- Size: The  table contains 5.000 records.
 - Format: [CSV](https://invited-lancer-0e5.notion.site/Ph-n-T-ch-D-Li-u-t-Ph-ng-Kh-ch-S-n-19764bc2677380eab70bcaa2c408aeed)
-<img width="1637" height="702" alt="image" src="https://github.com/user-attachments/assets/99dfcf2a-3730-425a-a8bb-e2ab46e545e4" />
+<img width="1781" height="687" alt="image" src="https://github.com/user-attachments/assets/8ef2af27-b18d-42d6-9afb-41d212977732" />
 
 
 # Data Processing by SQL & DAX 
@@ -230,8 +230,6 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## III> Room Management | Room Allocation & Right-Selling Time
 <img width="1302" height="723" alt="image" src="https://github.com/user-attachments/assets/d5ecce06-602f-4290-8970-d50666f83f67" />
 
-
-
 - The hotel operates 200 rooms per day, but allocation and selling-time utilization are ineffective.
     - Maintaining a large number of unsold rooms generates high fixed costs to keep them operational
     - Revenue loss from unoccupied rooms over two years and lost revenue from unoccupied rooms
@@ -261,48 +259,23 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 </details>
 
-- The hotel recorded **581** Double Booking cases from 1.300 bookings, with 458 affected customers (~90% of the total 500 customers).
-- On average, each case lasted 15 days, wih some*572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> (02/2023-02/2025) **Net Revenue** was only ~$7M compared to the ~$65M in potential revenue loss.
-    - **1.547** cases of underperforming cases, where Occupancy Rate (%OR) were lower than the target.
-    - Only **849** cases achieved good performance
-
-- **`Why did it happen ?`**:
-    - Poor seasonality-based allocation -> wrong timing for selling rooms
-    - Large operation capacity (200 rooms/day) vs. actual.
-
-=>🚩 Hotel resources have remained underutilized for two consecutive years. As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
-
-## IV> Hotel Operation Analysi | Double Booking
-<img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/fca0896e-2696-42f8-877b-47f694273486" />
-
-<details>
-  <summary>Definition for Double Booking Cases</summary>
-  <br>
-
-- A **Double Booking** for a Room Number is defined within the period starting from `min(check_in)` to `max(check_out)`.
-- All `BookingID`s with overlapping time periods within this period are grouped into the same case.
-- If a new `BookingID` has `check_in > check_out` of the previous case → a new case will be created.
-<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
-
-</details>
-
 - The hotel recorded **581** Double Booking cases from **1.300** bookings, with **458** affected customers (90% of the total 500 customers)
 - On average, each case lasted 15 days, with some cases prolonged up to 36 days -> showing that many customers booked continuously, `causing overlapping rooms`.
 
 1. **Double Booking Behavior**:
-  - Monthly fluctuation: 85-125 cases (30-35% of total boookings).
+   - Monthly fluctuation: 85-125 cases (30-35% of total boookings).
     
 2. **Double Booking Affections**:
-  - Top 5 Rooms with the `Most Double Bookings`: R164, R200,R26O,... (6-7 cases /room).
-  - Rooms with more Double Booking affect more customers: R260(18 customers), R300(18 customers).
+   - Top 5 Rooms with the `Most Double Bookings`: R164, R200,R26O,... (6-7 cases /room).
+   - Rooms with more Double Booking affect more customers: R260(18 customers), R300(18 customers).
 
 =>This can cause poor experience of customers and detract from the hotel's reputation.
-   - Customers receive duplicate room assignments.
-   - If a customer refuses the hotel's room re-arrange offer -> the hotel must cover compensation costs (finding another hotel).
+    - Customers receive duplicate room assignments.
+    - If a customer refuses the hotel's room re-arrange offer -> the hotel must cover compensation costs (finding another hotel).
 
 3. **Potential Problems**:
-   - Staff Error: Forgetting to update the data after changing the customer's room.
-   - System Error: Early check-outs not recorded, but the system not recorded. Therefore, the room still be counted as occupied and creating overlap.
+    - Staff Error: Forgetting to update the data after changing the customer's room.
+    - System Error: Early check-outs not recorded, but the system not recorded. Therefore, the room still be counted as occupied and creating overlap.
 
 
 # 💡Recommendations
