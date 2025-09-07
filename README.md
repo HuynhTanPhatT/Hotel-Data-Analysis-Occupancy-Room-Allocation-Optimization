@@ -19,6 +19,7 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
 🥷 Who is this project for ?
 - Hotel Management Team
 - Operation Team
+
 ❓Business Questions:
 1. What is the hotel's current business performance?
 2. Why is the Occupancy Rate below the industry benchmark?
