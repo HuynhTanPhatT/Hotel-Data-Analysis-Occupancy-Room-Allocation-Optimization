@@ -1,6 +1,6 @@
  # 🏨Hotel Data Analysis: Occupancy & Room Allocation Optimization (02/2023 - 02/2025)
 - Author: Huỳnh Tấn Phát
-- Date: 08/2025
+- Date: 09/2025
 - Tool Used: `SQL`, `PowerBi`
 # 🧾Table Of Contents (TOCs)
 1. [Background & Overview]()
@@ -215,12 +215,12 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/f6999b90-5f54-4f8d-bbde-7464fc73dd13" />
 
 - The reasons for `"Why the Occupancy Rate low"` come from 3 factors: **Cancelled Room Nights**, **Sold Rooms**, and **ADR**.
-1. Cancelled Room Nights: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
+1. **Cancelled Room Nights**: 2023 (1.599 cancellations) && 2024 (1.645 cancellations) -> This reflects the loss of potential sold rooms as well as revenue for the hotel.
   
-2. Low Sold Rooms: 2023 (**8.674** room nights) && 2024 (**9.953** room nights)
+2. **Low Sold Rooms**: 2023 (**8.674** room nights) && 2024 (**9.953** room nights)
    - Problem: the hotel has 200 room available per day (200 * 365 days == 73.00 room nights / year) -> The hotel is operating continuously with only 27 rooms to acount the number of sold rooms in 2023 || 2024.
 
-3. ADR: The price ranges from ($51 - $500), but the performance of each room is poor across all the price segments -> Despite high/low ADR, it cant improve the %OR.
+3. **ADR**: The price ranges from ($51 - $500), but the performance of each room is poor across all the price segments -> Despite high/low ADR, it cant improve the %OR.
 
 - **`Why did it happend`** ?
     - No demand stimulation actions: the hotel needs a collaborate from Sales / Marketing to increase the appeareance of the hotel and %OR.
@@ -245,7 +245,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
     - Poor seasonality-based allocation -> wrong timing for selling rooms
     - Large operation capacity (200 rooms/day) vs. actual.
 
-=>🚩 Hotel resources have remained underutilized for two consecutive years. As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
+=>🚩 Hotel resources have **`remained underutilized for two consecutive years`**. As a result, strong revenue from booked rooms cannot offset this inefficiency, `preventing the hotel from reaching desired profitability levels`.
 
 ## IV> Hotel Operation Analysi | Double Booking
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/fca0896e-2696-42f8-877b-47f694273486" />
@@ -286,22 +286,23 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 </details>
 
-- The hotel recorded **581** Double Booking cases from 1.300 bookings, with 458 affected customers (~90% of the total 500 customers).
-- On average, each case lasted 15 days, with some prolong up to 36 days -> showing that many customers reserved continuously, causing overlapping room.
+- The hotel recorded **581** Double Booking cases from **1.300** bookings, with **458** affected customers (90% of the total 500 customers)
+- On average, each case lasted 15 days, with some cases prolonged up to 36 days -> showing that many customers booked continuously, `causing overlapping rooms`.
 
-1. Double Booking Behavior:
-  - Monthly fluctuation: 85-125 cases (~30-35% of total bookings).
-2. Double Booking Affection:
-  - Top 5 Rooms with Most Double Bookings: R164, R200, R260,... (6-7 cases each room).
-  - Rooms with more Double Booking affect more customers -> e.g: R260(18 customers), R300(18 customers).
+1. **Double Booking Behavior**:
+  - Monthly fluctuation: 85-125 cases (30-35% of total boookings).
+    
+2. **Double Booking Affections**:
+  - Top 5 Rooms with the `Most Double Bookings`: R164, R200,R26O,... (6-7 cases /room).
+  - Rooms with more Double Booking affect more customers: R260(18 customers), R300(18 customers).
 
-=> This is an error from management system which can cause poor experience of customers and detract from the hotel's image.
+=>This can cause poor experience of customers and detract from the hotel's reputation.
    - Customers receive duplicate room assignments.
-   - If a customer refuses the hotel's re-allocation offer -> the hotel must cover compensation costs (finding another hotel).
+   - If a customer refuses the hotel's room re-arrange offer -> the hotel must cover compensation costs (finding another hotel).
 
-3. Potential Problems:
-   - Staff Error: forgetting to update the data after changing the customers's room.
-   - System Error: Khách Hàng có thể đã thay đổi thời điểm check-out sớm hơn, nhưng hệ thống không ghi nhận. Do đó, phòng vẫn tính là đang lấp đầy tại thời điểm đó trong dữ liệu
+3. **Potential Problems**:
+   - Staff Error: Forgetting to update the data after changing the customer's room.
+   - System Error: Early check-outs not recorded, but the system not recorded. Therefore, the room still be counted as occupied and creating overlap.
 
 
 # 💡Recommendations
