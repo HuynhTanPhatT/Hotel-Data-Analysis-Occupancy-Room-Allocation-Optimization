@@ -43,23 +43,6 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
     - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
 
-
-<details>
-  <summary>Definition for Double Booking Cases</summary>
-  <br>
-
-- A **Double Booking** for a Room Number is defined within the period starting from `min(check_in)` to `max(check_out)`.
-- All `BookingID`s with overlapping time periods within this period are grouped into the same case.
-- If a new `BookingID` has `check_in > check_out` of the previous case → a new case will be created.
-
-<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
-</details>
-
- 
-<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
-</details>
-
-
 2. DAX Calculations & Formulas
   - `Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
 <details>
@@ -267,7 +250,20 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## IV> Hotel Operation Analysi | Double Booking
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/fca0896e-2696-42f8-877b-47f694273486" />
 
+<details>
+  <summary>Definition for Double Booking Cases</summary>
+  <br>
 
+- A **Double Booking** for a Room Number is defined within the period starting from `min(check_in)` to `max(check_out)`.
+- All `BookingID`s with overlapping time periods within this period are grouped into the same case.
+- If a new `BookingID` has `check_in > check_out` of the previous case → a new case will be created.
+<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
+
+</details>
+
+ 
+<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
+</details>
  
 # 💡Recommendations
 
