@@ -261,7 +261,49 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 </details>
 
- 
+- The hotel recorded **581** Double Booking cases from 1.300 bookings, with 458 affected customers (~90% of the total 500 customers).
+- On average, each case lasted 15 days, wih some*572** Unsold cases recorded over two years, resulting to **$65M** in `lost revenue from unoccupied rooms` -> (02/2023-02/2025) **Net Revenue** was only ~$7M compared to the ~$65M in potential revenue loss.
+    - **1.547** cases of underperforming cases, where Occupancy Rate (%OR) were lower than the target.
+    - Only **849** cases achieved good performance
+
+- **`Why did it happen ?`**:
+    - Poor seasonality-based allocation -> wrong timing for selling rooms
+    - Large operation capacity (200 rooms/day) vs. actual.
+
+=>🚩 Hotel resources have remained underutilized for two consecutive years. As a result, strong revenue from booked rooms cannot offset this inefficiency, preventing the hotel from reaching desired profitability levels.
+
+## IV> Hotel Operation Analysi | Double Booking
+<img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/fca0896e-2696-42f8-877b-47f694273486" />
+
+<details>
+  <summary>Definition for Double Booking Cases</summary>
+  <br>
+
+- A **Double Booking** for a Room Number is defined within the period starting from `min(check_in)` to `max(check_out)`.
+- All `BookingID`s with overlapping time periods within this period are grouped into the same case.
+- If a new `BookingID` has `check_in > check_out` of the previous case → a new case will be created.
+<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
+
+</details>
+
+- The hotel recorded **581** Double Booking cases from 1.300 bookings, with 458 affected customers (~90% of the total 500 customers).
+- On average, each case lasted 15 days, with some prolong up to 36 days -> showing that many customers reserved continuously, causing overlapping room.
+
+1. Double Booking Behavior:
+  - Monthly fluctuation: 85-125 cases (~30-35% of total bookings).
+2. Double Booking Affection:
+  - Top 5 Rooms with Most Double Bookings: R164, R200, R260,... (6-7 cases each room).
+  - Rooms with more Double Booking affect more customers -> e.g: R260(18 customers), R300(18 customers).
+
+=> This is an error from management system which can cause poor experience of customers and detract from the hotel's image.
+   - Customers receive duplicate room assignments.
+   - If a customer refuses the hotel's re-allocation offer -> the hotel must cover compensation costs (finding another hotel).
+
+3. Potential Problems:
+   - Staff Error: forgetting to update the data after changing the customers's room.
+   - System Error: Khách Hàng có thể đã thay đổi thời điểm check-out sớm hơn, nhưng hệ thống không ghi nhận. Do đó, phòng vẫn tính là đang lấp đầy tại thời điểm đó trong dữ liệu
+
+
 # 💡Recommendations
 
 | Strategy    | Insight      | Recommendation    |
