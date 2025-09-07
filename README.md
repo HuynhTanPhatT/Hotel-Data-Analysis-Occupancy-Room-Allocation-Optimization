@@ -262,9 +262,6 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 </details>
 
  
-<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
-</details>
- 
 # 💡Recommendations
 
 | Strategy    | Insight      | Recommendation    |
