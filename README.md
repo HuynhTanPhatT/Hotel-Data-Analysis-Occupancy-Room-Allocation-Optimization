@@ -18,7 +18,7 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
 
 🥷 Who is this project for ?
 - Hotel Management Team
-  
+- Operation Team
 ❓Business Questions:
 1. What is the hotel's current business performance?
 2. Why is the Occupancy Rate below the industry benchmark?
@@ -41,6 +41,18 @@ This project aims to build a **PowerBi Dashboard** with four pages using the `Ho
     - Identify **booking cases** where the same room number has more than `2 bookings` on the same day => 🚩Flag: Double Booking
     - Detect bookings with **Pending** or **Cancelled** status that still show service usage in the hotel => Update Booking Status
     - Identify cases where the second guest checks in before the first guest has checked out => 🚩Flag: Double Booking
+
+<details>
+  <summary>Defination for Double Booking Cases</summary>
+ 
+   <br>
+- A Double Booking for a Room Number is defined within the period starting from `min(check_in)` to `max(check_out)`
+- All BookingIDs with overlapping time periods within this period are grouped into the same case.
+- If a new BookingID has `check_in` > `check_Out` of the previous case 
+-> a new case will be created
+ 
+<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
+</details>
 
 2. DAX Calculations & Formulas
   - `Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
@@ -125,7 +137,7 @@ Avg Daily Rate (ADR) = DIVIDE(
 
   <br>
 
-- **Target Occupancy Rate**: so sánh %OR 2023 và %OR 2024 với Target OR ( Avg.%OR * 25% / 40% vào mùa cao điểm hay thấp điểm).
+- **Target Occupancy Rate**: compare %OR in 2023 & 2024 to (Average %OR * 25% (Off Season) || 40%(Peak Season))
 
 ```dax
 TargetOR = 
@@ -139,7 +151,7 @@ RETURN
 Avg_OR * (1 + Target)
 ```
 
-- **Bad Performance**: Hiệu suất lấp đầy phòng (%OR 2024) thấp hơn Target %OR
+- **Bad Performance**: The Occupany Rate (%OR) is lower than the Target %OR
 
 ```dax
 BadPerformance = 
@@ -149,7 +161,7 @@ CALCULATE (
     [%OR 2024] < 'Diff 2024 vs  2023'[TargetOR] || [%OR 2024] = 0))
 ```
 
-- **Good Performance**: Hiệu suất lấp đầy phòng (%OR 2024) cao hơn Target %OR
+- **Good Performance**: The Occupany Rate (%OR) is higher than the Target %OR
 
 ```dax
 GoodPerformance = 
@@ -159,8 +171,7 @@ CALCULATE (
     [%OR 2024] > 'Diff 2024 vs  2023'[TargetOR]))
 ```
 
-- **Unsold Cases**: 1 tháng liên tiếp trong 2 năm không bán được phòng
-
+- **Unsold Cases**: A Room Number remained unsold for consecutive months over the past two years(2023 & 2024)
 ```dax
 Unsold_2_years = 
 CALCULATE (
@@ -168,10 +179,10 @@ CALCULATE (
     [%OR 2023] = 0 && [%OR 2024] =0))
 ```
 
-- **Potential Revenue Loss**: Doanh thu bị mất do phòng trống một ngày 
+- **Potential Revenue Loss**: The estimated revenue lost due to rooms unoccupied for one or more days
 
 ```dax
-UnexpectedRevenueLoss = 
+PotentialRevenueLoss = 
 SUMX(
     VALUES('Room Table'[room_number]), 
     VAR price_per_night = MAX('Room Table'[price_per_night])
@@ -180,7 +191,7 @@ SUMX(
     RETURN (price_per_night * total_days) - actual_room_revenue)
 ```
 
-- **Score Method**:
+- **Score Method**: A ranking board to evaluate and identify the Top 10 rooms (out of 200) that needs to be prioritized for improvement
 
 ```dax
 Score = (Value / Highest Value) * 100
@@ -250,19 +261,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 ## IV> Hotel Operation Analysi | Double Booking
 <img width="1299" height="727" alt="image" src="https://github.com/user-attachments/assets/fca0896e-2696-42f8-877b-47f694273486" />
 
-<details>
-  <summary>To Identify a Double Booking Case</summary>
- 
-   <br>
 
-- A case for a Room Number is defined based on:
-  - The starting time from `min(check_in)` to `max(check_out)`
-  - All BookingIDs with overlapping time periods within this period are grouped into the same case.
-  - If a new BookingID has `check_in` > `check_Out` of the previous case 
--> a new case will be created
- 
-<img width="919" height="320" alt="Example - Double Booking Cases" src="https://github.com/user-attachments/assets/64e94803-1959-4b50-b5f2-afb1e5f5dfe5" />
-</details>
  
 # 💡Recommendations
 
