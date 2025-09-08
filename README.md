@@ -1,4 +1,4 @@
- # 🏨Hotel Data Analysis: Occupancy & Room Allocation Optimization (02/2023 - 02/2025)
+ # 🏨Hotel Data Analysis: Occupancy Optimization & Double Booking  (02/2023 - 02/2025)
 - Author: Huỳnh Tấn Phát
 - Date: 09/2025
 - Tool Used: `SQL`, `PowerBi`
