@@ -282,16 +282,17 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 Mục Đích Cốt Lỗi: Kích cầu và tăng %OR bằng mọi cách - nếu %OR không tăng thì đồng nghĩa Khách Sạn luôn chịu lỗ (bởi vì Khách Hàng ít so với tiềm năng Khách Sạn có thể mang lại).
 
-| WHO             | Strategy       | Insight         | 💡Recommendation  |
+| WHO             | Strategy       | Insight         | Recommendation  |
 |:---------------:|:--------------:|:---------------:|:---------------:|
-| Hotel Management Team| 1.🚀Dynamic Pricing Strategy| Giá từng phòng rơi vào ($51-$500) và ADR duy trì ($247-$300), nhưng %OR không cải thiện. Chứng tỏ, Khách Sạn không chủ động trong việc quản lý giá để cải thiện %OR | Xây dựng chiến lược “Right-selling time”: điều chỉnh giá theo mùa và chọn thời điểm tối ưu để mở bán / ngưng bán phòng dựa trên dữ liệu đã có.|
-| Hotel Management Team| x | e | z|
+| Hotel Management Team| 1.🚀Dynamic Pricing Strategy| Giá từng phòng rơi vào ($51-$500) và ADR duy trì ($247-$300), nhưng %OR không cải thiện. Chứng tỏ, Khách Sạn không chủ động trong việc quản lý giá để cải thiện %OR | 💡Xây dựng chiến lược “Right-selling time”: điều chỉnh giá theo mùa và chọn thời điểm tối ưu để mở bán / ngưng bán phòng dựa trên dữ liệu đã có.|
+| Hotel Management Team| 2. 🏨Room Allocation| Khách Sạn vận hành 200 phòng mỗi ngày, nhưng nhiều phòng vẫn trong tình trạng không bán được hoặc kém hiệu quả trong thời gian dài. Thời điểm phân bổ bán một phòng  chưa hiệu quả.| - 💡 Chiến lược ngắn hạn:  Ưu tiên cải thiện Top 10 phòng kém hiệu suất → giảm ~10% unsold cases.
+-💡  Chiến lược dài hạn: Giảm lượng phòng bán lại và tập trung vào phòng có hiệu suất tốt trước.|
+| Operation Team| 3. ⚙️Management System|581 trường hợp Double Booking, tất cả đều Confirmed→ Vấn đề về lỗi nhập liệu / không cập nhật lại phòng lên hệ thống. Điều này, có thể làm ảnh hưởng đến trải nghiệm khách hàng & uy tín | - 💡Tích hợp cảnh báo Double Booking tự động: hệ thống phải báo lỗi khi có trùng lặp.
+- 💡Kiểm tra & chỉnh quy trình cập nhật phòng: khi khách đổi phòng/check-out sớm phải cập nhật ngay|
 
 
 
-⚙️
 
 1. Room Allocation & Selling Timing
   - Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
-  - Long-term action:
 
