@@ -280,12 +280,16 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 # 💡Recommendations
 
-| Strategy    | Insight      | Recommendation    |
-|:-----------|:----------:|----------:|
-| 1. Room Allocation & Selling Timing|        | Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.| 
-| d          | e          | f         |
+Mục Đích Cốt Lỗi: Kích cầu và tăng %OR bằng mọi cách - nếu %OR không tăng thì đồng nghĩa Khách Sạn luôn chịu lỗ (bởi vì Khách Hàng ít so với tiềm năng Khách Sạn có thể mang lại).
+
+| WHO             | Strategy       | Insight         | 💡Recommendation  |
+|:---------------:|:--------------:|:---------------:|:---------------:|
+| Hotel Management Team| 1.🚀Dynamic Pricing Strategy| Giá từng phòng rơi vào ($51-$500) và ADR duy trì ($247-$300), nhưng %OR không cải thiện. Chứng tỏ, Khách Sạn không chủ động trong việc quản lý giá để cải thiện %OR | Xây dựng chiến lược “Right-selling time”: điều chỉnh giá theo mùa và chọn thời điểm tối ưu để mở bán / ngưng bán phòng dựa trên dữ liệu đã có.|
+| Hotel Management Team| x | e | z|
 
 
+
+⚙️
 
 1. Room Allocation & Selling Timing
   - Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
