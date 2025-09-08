@@ -280,7 +280,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 
 # 💡Recommendations
 
-Mục Đích Cốt Lỗi: Kích cầu và tăng %OR bằng mọi cách - nếu %OR không tăng thì đồng nghĩa Khách Sạn luôn chịu lỗ (bởi vì Khách Hàng ít so với tiềm năng Khách Sạn có thể mang lại).
+Core Purpose: Stimulate demand and increase the Occupancy Rate at all costs - If %OR does not improve, the hotel will continue to operate at a loss, since the number of actual customers is far below the hotel's potential capacity.
 
 | WHO                  | Strategy                  | Insight                                                                                               | Recommendation                                                                                                                                                 |
 |-----------------------|---------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
