@@ -269,13 +269,13 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
    - Top 5 Rooms with the `Most Double Bookings`: R164, R200,R26O,... (6-7 cases /room).
    - Rooms with more Double Booking affect more customers: R260(18 customers), R300(18 customers).
 
-=>This can cause poor experience of customers and detract from the hotel's reputation.
+=>This can cause **poor experience of customers** and **detract from the hotel's reputation**.
     - Customers receive duplicate room assignments.
     - If a customer refuses the hotel's room re-arrange offer -> the hotel must cover compensation costs (finding another hotel).
 
 3. **Potential Problems**:
-    - Staff Error: Forgetting to update the data after changing the customer's room.
-    - System Error: Early check-outs not recorded, but the system not recorded. Therefore, the room still be counted as occupied and creating overlap.
+    - `Staff Error`: Forgetting to update the data after changing the customer's room.
+    - `System Error`: Early check-outs not recorded, but the system not recorded. Therefore, the room still be counted as occupied and creating overlap.
 
 
 # 💡Recommendations
@@ -284,14 +284,7 @@ Mục Đích Cốt Lỗi: Kích cầu và tăng %OR bằng mọi cách - nếu %
 
 | WHO                  | Strategy                  | Insight                                                                                               | Recommendation                                                                                                                                                 |
 |-----------------------|---------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hotel Management Team | 🚀 Dynamic Pricing        | Giá phòng dao động ($51–$500) và ADR duy trì ($247–$300), nhưng %OR không cải thiện. Điều này cho thấy khách sạn chưa chủ động quản lý giá. | 💡 Xây dựng chiến lược “Right-selling time”: điều chỉnh giá theo mùa và chọn thời điểm tối ưu để mở bán / ngưng bán phòng dựa trên dữ liệu. |
-| Hotel Management Team | 🏨 Room Allocation        | Khách sạn vận hành 200 phòng/ngày, nhưng nhiều phòng không bán được hoặc kém hiệu quả trong thời gian dài. Thời điểm phân bổ phòng chưa hợp lý. | 💡 Ngắn hạn: Ưu tiên cải thiện Top 10 phòng kém hiệu suất → giảm ~10% unsold cases.<br>💡 Dài hạn: Giảm số lượng phòng bán lại và tập trung vào phòng có hiệu suất tốt. |
-| Operation Team        | ⚙️ Management System      | 581 trường hợp Double Booking, tất cả đều Confirmed → lỗi nhập liệu / không cập nhật hệ thống. Điều này ảnh hưởng đến trải nghiệm khách hàng & uy tín. | 💡 Tích hợp cảnh báo Double Booking tự động.<br>💡 Kiểm tra & chỉnh quy trình cập nhật phòng (khách đổi phòng/check-out sớm phải cập nhật ngay). |
-
-
-
-
-
-1. Room Allocation & Selling Timing
-  - Short-term action: A ranking chart (score 0-100) was created to identify the Top 10 `underperforming rooms`, based on the three measures above. By prioritizing these Top 10, **unsold cases** could be reduced by ~10% -> short-term solution.
+| Hotel Management Team |1.🚀Dynamic Pricing        |The **room price** ranges from $51-$500 and **ADR** remained flat ($247 - $300), but the Occupancy Rate (%OR) has not improved.|💡Build a "Right-Selling Time" strategy: adjust pricing seasonally and determine the optimal timing to open or close room sales based on historical data.|
+| Hotel Management Team |2.🏨Room Allocation        |The hotel operates 200 rooms per day, but many rooms remained unsold or underperforming for long periods. This shows that the room allocation strategy is not suitable.| 💡Short-term: Prioritize: improving the Top 10 underperforming rooms -> decrease unsold cases by ~10%.<br>💡Long-term: Reduce the number of operating rooms per day and focus room resources on "Good Performance" rooms.|
+| Operation Team        |3.⚙️Management System      | 581 Double Bookings cases (Confired Bookings) -> caused by data entry errors or forgeting updating to the system on time. This issue can affect to the customers' experience & hotel's reputation.| 💡Review and improve the room update process (any room change/early check-out must be updated immediately in the system).
 
