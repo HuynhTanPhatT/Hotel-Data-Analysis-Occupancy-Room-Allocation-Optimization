@@ -246,7 +246,7 @@ Overall Score: Total Score = (Unsold + Bad Performance + Potential Revenue Loss)
 =>🚩 Hotel resources have **`remained underutilized for two consecutive years`**. As a result, strong revenue from booked rooms cannot offset this inefficiency, `preventing the hotel from reaching desired profitability levels`.
 
 ## IV> Hotel Operation Analysi | Double Booking
-![Uploading image.png…]()
+<img width="1299" height="732" alt="image" src="https://github.com/user-attachments/assets/f6f434de-2bff-4d93-b605-46eb519fb1d9" />
 
 <details>
   <summary>Definition for Double Booking Cases</summary>
